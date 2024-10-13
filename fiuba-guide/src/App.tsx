@@ -9,7 +9,6 @@ function App() {
   return (
     <div>
       <SearchBar onSelectRoom={setSelectedRoom} />
-      <p>{selectedRoom}</p>
       <Floor id={FloorId.P1} selectedRoom={selectedRoom} />
     </div>
   );

@@ -1,5 +1,5 @@
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
-import P1config from "../assets/P1.json";
+import { FloorConfig, floorConfig } from "../assets/floorConfig";
 
 type Props = {
   onSelectRoom: (room: string | null) => void;
@@ -9,19 +9,28 @@ type AutocompleteItem = {
   id: string;
   name: string;
   display: string;
-  floor: number;
+  floor: string;
 };
-const items: AutocompleteItem[] = P1config.reduce(
-  (acc: AutocompleteItem[], { id, displayName, searchTerms }) => {
+
+const deNormalizeFloor = (
+  config: FloorConfig[],
+  floor: string
+): AutocompleteItem[] =>
+  config.reduce((acc: AutocompleteItem[], { id, displayName, searchTerms }) => {
     return [
       ...acc,
       ...searchTerms.map((term) => ({
         id,
         name: term,
         display: displayName,
-        floor: 1,
+        floor,
       })),
     ];
+  }, []);
+
+const items = Object.entries(floorConfig).reduce(
+  (acc: AutocompleteItem[], [id, config]) => {
+    return [...acc, ...deNormalizeFloor(config, id)];
   },
   []
 );
