@@ -1,15 +1,14 @@
 import { useState } from "react";
 import { Floor } from "./components/Floor";
-import { SearchBar } from "./components/SearchBar";
-import { FloorId } from "./types/FloorId";
+import { RoomSearchData, SearchBar } from "./components/SearchBar";
 
 function App() {
-  const [selectedRoom, setSelectedRoom] = useState<string | null>(null);
+  const [selectedRoom, setSelectedRoom] = useState<RoomSearchData | null>(null);
 
   return (
     <div>
-      <SearchBar onSelectRoom={setSelectedRoom} />
-      <Floor id={FloorId.P1} selectedRoom={selectedRoom} />
+      <SearchBar onSelectRoom={setSelectedRoom}/>
+      <Floor selectedRoom={selectedRoom} />
     </div>
   );
 }

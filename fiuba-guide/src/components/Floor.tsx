@@ -1,12 +1,12 @@
 import { ReactSVG } from "react-svg";
 import { FloorId } from "../types/FloorId";
+import { RoomSearchData } from "./SearchBar";
 
 type Props = {
-  id: FloorId;
-  selectedRoom: string | null;
+  selectedRoom: RoomSearchData | null;
 };
 
-const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: string | null) => {
+const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: RoomSearchData | null) => {
   if (!selectedRoom) return;
 
   // we search all nodes for one with inkscape:label equal to selectedRoom
@@ -15,20 +15,20 @@ const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: string | null) => {
   const nodes = [...svg.getElementsByTagName("*")] as HTMLElement[];
 
   for (const node of nodes) {
-    if (node.getAttribute("inkscape:label") === selectedRoom) {
+    if (node.getAttribute("inkscape:label") === selectedRoom.room) {
       node.style.fill = "red";
     }
   }
 };
 
-export const Floor = ({ id, selectedRoom }: Props) => {
+export const Floor = ({ selectedRoom }: Props) => {
   const afterInjection = (svg: SVGSVGElement) => {
     colorSelectedRoom(svg, selectedRoom);
   };
 
   return (
     <ReactSVG
-      src={`/floorplans/svg/${id}.svg`}
+      src={`/floorplans/svg/${selectedRoom ? selectedRoom.floorId : FloorId.P1}.svg`}
       afterInjection={afterInjection}
     />
   );

@@ -1,20 +1,26 @@
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { FloorConfig, floorConfig } from "../assets/floorConfig";
+import { FloorId, floorIdStrToEnum } from "../types/FloorId";
+
+export type RoomSearchData = {
+  floorId: FloorId;
+  room: string;
+}
 
 type Props = {
-  onSelectRoom: (room: string | null) => void;
+  onSelectRoom: (room: RoomSearchData | null) => void;
 };
 
 type AutocompleteItem = {
   id: string;
   name: string;
   display: string;
-  floor: string;
+  floor: FloorId;
 };
 
 const deNormalizeFloor = (
   config: FloorConfig[],
-  floor: string
+  floor: FloorId
 ): AutocompleteItem[] =>
   config.reduce((acc: AutocompleteItem[], { id, displayName, searchTerms }) => {
     return [
@@ -30,7 +36,7 @@ const deNormalizeFloor = (
 
 const items = Object.entries(floorConfig).reduce(
   (acc: AutocompleteItem[], [id, config]) => {
-    return [...acc, ...deNormalizeFloor(config, id)];
+    return [...acc, ...deNormalizeFloor(config, floorIdStrToEnum(id))];
   },
   []
 );
@@ -54,7 +60,7 @@ const formatResult = (item: AutocompleteItem) => {
 
 export const SearchBar = ({ onSelectRoom }: Props) => {
   const onSelect = (item: AutocompleteItem) => {
-    onSelectRoom(item.id);
+    onSelectRoom({floorId: item.floor, room: item.id});
   };
 
   return (
