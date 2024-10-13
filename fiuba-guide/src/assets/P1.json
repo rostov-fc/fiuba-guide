@@ -1,0 +1,87 @@
+[
+  {
+    "id": "L1",
+    "displayName": "L1",
+    "searchTerms": ["L1"]
+  },
+  {
+    "id": "L2",
+    "displayName": "L2",
+    "searchTerms": ["L2"]
+  },
+  {
+    "id": "L3",
+    "displayName": "L3",
+    "searchTerms": ["L3"]
+  },
+  {
+    "id": "L4",
+    "displayName": "L4",
+    "searchTerms": ["L4"]
+  },
+  {
+    "id": "L3A",
+    "displayName": "L3A",
+    "searchTerms": ["L3A"]
+  },
+  {
+    "id": "L3B",
+    "displayName": "L3B",
+    "searchTerms": ["L3B"]
+  },
+  {
+    "id": "L5",
+    "displayName": "L5",
+    "searchTerms": ["L5"]
+  },
+  {
+    "id": "L6",
+    "displayName": "L6",
+    "searchTerms": ["L6"]
+  },
+  {
+    "id": "L7",
+    "displayName": "L7",
+    "searchTerms": ["L7"]
+  },
+  {
+    "id": "L9",
+    "displayName": "L9",
+    "searchTerms": ["L9"]
+  },
+  {
+    "id": "L10",
+    "displayName": "L10",
+    "searchTerms": ["L10"]
+  },
+  {
+    "id": "L13",
+    "displayName": "L13",
+    "searchTerms": ["L13"]
+  },
+  {
+    "id": "L14",
+    "displayName": "L14",
+    "searchTerms": ["L14"]
+  },
+  {
+    "id": "L15",
+    "displayName": "L15",
+    "searchTerms": ["L15"]
+  },
+  {
+    "id": "103",
+    "displayName": "103",
+    "searchTerms": ["103"]
+  },
+  {
+    "id": "105",
+    "displayName": "105",
+    "searchTerms": ["105"]
+  },
+  {
+    "id": "107",
+    "displayName": "107",
+    "searchTerms": ["107"]
+  }
+]
