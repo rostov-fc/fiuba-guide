@@ -1,0 +1,11 @@
+.floor-mini svg {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.result-cointainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+}

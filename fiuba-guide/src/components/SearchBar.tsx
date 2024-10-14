@@ -1,6 +1,8 @@
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { FloorConfig, floorConfig } from "../assets/floorConfig";
 import { FloorId, floorIdStrToEnum } from "../types/FloorId";
+import { Floor } from "./Floor";
+import "./SearchBar.css"
 
 export type RoomSearchData = {
   floorId: FloorId;
@@ -46,15 +48,25 @@ const formatResult = (item: AutocompleteItem) => {
 
   if (name === display) {
     return (
-      <span>
+      <div className="result-cointainer">
+      <div>
         {name} [Piso {floor}]
-      </span>
+      </div>
+      <div className="floor-mini">
+        <Floor selectedRoom={{floorId: item.floor, room: item.id}}/>
+      </div>
+      </div>
     );
   }
   return (
-    <span>
-      {item.name} ({item.display}) [Piso {floor}]
-    </span>
+    <div className="result-cointainer">
+      <div>
+        {item.name} ({item.display}) [Piso {floor}]
+      </div>
+      <div className="floor-mini">
+        <Floor selectedRoom={{floorId: item.floor, room: item.id}}/>
+      </div>
+    </div>
   );
 };
 
