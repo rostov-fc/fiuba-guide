@@ -6,9 +6,13 @@ function App() {
   const [selectedRoom, setSelectedRoom] = useState<RoomSearchData | null>(null);
 
   return (
-    <div>
-      <SearchBar onSelectRoom={setSelectedRoom}/>
-      <Floor selectedRoom={selectedRoom} />
+    <div className="canvas">
+      <div className="main-bar">
+        <SearchBar onSelectRoom={setSelectedRoom} />
+      </div>
+      <div className="floor-map">
+        <Floor selectedRoom={selectedRoom} />
+      </div>
     </div>
   );
 }

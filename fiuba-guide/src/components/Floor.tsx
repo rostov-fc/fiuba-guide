@@ -1,6 +1,7 @@
 import { ReactSVG } from "react-svg";
 import { FloorId } from "../types/FloorId";
 import { RoomSearchData } from "./SearchBar";
+import "./Floor.css"
 
 type Props = {
   selectedRoom: RoomSearchData | null;
@@ -15,7 +16,8 @@ const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: RoomSearchData | nu
   for (const node of nodes) {
     const label = node.getAttribute("inkscape:label");
     if (label === selectedRoom?.room) {
-      node.style.fill = "#314c96";
+      node.style.removeProperty("fill");
+      node.classList.add("selected");
     } else if (node.style?.fill) {
       if (label?.startsWith("BACKGROUND")) {
         node.style.fill = "#0000";
@@ -24,7 +26,8 @@ const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: RoomSearchData | nu
       else if (label?.startsWith("WALL")) {
         node.style.fill = "#0000";
       } else {
-        node.style.fill = "#c2c2c2";
+        node.style.removeProperty("fill");
+        node.classList.add("unselected");
       }
     }
   }
@@ -36,7 +39,7 @@ export const Floor = ({ selectedRoom }: Props) => {
   };
 
   return (
-    <ReactSVG
+    <ReactSVG className="floor" viewBox="0 0 20 10" preserveAspectRatio="xMidYMid meet"
       src={`/floorplans/svg/${selectedRoom ? selectedRoom.floorId : FloorId.P1}.svg`}
       afterInjection={afterInjection}
     />

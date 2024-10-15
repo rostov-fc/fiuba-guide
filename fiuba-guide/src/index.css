@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    --primary-color: #314c96;
+    --tertiary-color: #c2c2c2;
+}
+
+.selected {
+    background-color: var(--primary-color);
+    fill: var(--primary-color);
+}
+
+.unselected {
+    background-color: var(--tertiary-color);
+    fill: var(--tertiary-color);
+}
+
+div.canvas {
+    background-color: #FCFCFC;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.floor-map svg {
+    width: 100%;
+}
+
+.floor-map {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bar {
+    background-color: var(--primary-color);
+    width: 100%;
+    margin-bottom: 5rem;
+}
