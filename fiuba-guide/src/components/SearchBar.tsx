@@ -49,12 +49,12 @@ const formatResult = (item: AutocompleteItem) => {
   if (name === display) {
     return (
       <div className="result-cointainer">
-      <div>
-        {name} [Piso {floor}]
-      </div>
-      <div className="floor-mini">
-        <Floor selectedRoom={{floorId: item.floor, room: item.id}}/>
-      </div>
+        <div>
+          {name} [Piso {floor}]
+        </div>
+        <div className="floor-mini">
+          <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
+        </div>
       </div>
     );
   }
@@ -64,7 +64,7 @@ const formatResult = (item: AutocompleteItem) => {
         {item.name} ({item.display}) [Piso {floor}]
       </div>
       <div className="floor-mini">
-        <Floor selectedRoom={{floorId: item.floor, room: item.id}}/>
+        <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
       </div>
     </div>
   );
@@ -72,15 +72,26 @@ const formatResult = (item: AutocompleteItem) => {
 
 export const SearchBar = ({ onSelectRoom }: Props) => {
   const onSelect = (item: AutocompleteItem) => {
-    onSelectRoom({floorId: item.floor, room: item.id});
+    onSelectRoom({ floorId: item.floor, room: item.id });
   };
 
   return (
     <ReactSearchAutocomplete
+      className="search-bar"
       items={items}
       onSelect={onSelect}
       formatResult={formatResult}
       showNoResultsText="Sin resultados"
+      placeholder="Aula"
+      styling={{
+        borderRadius: "5px",
+        border: "1px solid #5d737e",
+        color: "#3f4045",
+        backgroundColor: "#fcfcfc",
+        iconColor: "#5d737e",
+        placeholderColor: "#5d737e",
+        hoverBackgroundColor: "#d1d1d1"
+      }}
     />
   );
 };

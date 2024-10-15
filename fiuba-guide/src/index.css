@@ -35,6 +35,8 @@ div.canvas {
 }
 
 .main-bar {
+    display: flex;
+    flex-direction: row;
     background-color: var(--primary-color);
     width: 100%;
     margin-bottom: 5rem;
