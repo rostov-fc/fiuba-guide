@@ -36,8 +36,9 @@ div.canvas {
 
 .main-bar {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     background-color: var(--primary-color);
     width: 100%;
     margin-bottom: 5rem;
+    padding: 0 2rem 0 2rem;
 }
