@@ -29,7 +29,6 @@ div.canvas {
 }
 
 .floor-map {
-
     justify-content: center;
     align-items: center;
 }
@@ -39,6 +38,4 @@ div.canvas {
     flex-direction: row-reverse;
     background-color: var(--primary-color);
     width: 100%;
-    margin-bottom: 5rem;
-    padding: 0 2rem 0 2rem;
 }
