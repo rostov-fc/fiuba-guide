@@ -1,6 +1,7 @@
 import { ReactSVG } from "react-svg";
 import { FloorId } from "../types/FloorId";
 import { RoomSearchData } from "./SearchBar";
+import { insertWrappedTextInSvg } from "../utils";
 import "./Floor.css"
 
 type Props = {
@@ -18,6 +19,14 @@ const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: RoomSearchData | nu
         node.style.removeProperty("fill");
         node.classList.add("selected");
       }
+
+      if (label?.startsWith("BACKGROUND") ||
+        label?.startsWith("WALL") ||
+        label?.startsWith("UNK")) {
+        return;
+      }
+      insertWrappedTextInSvg(node as SVGGraphicsElement,
+        label || "", label === selectedRoom?.room ? ["selected-text"] : []);
     });
 };
 
