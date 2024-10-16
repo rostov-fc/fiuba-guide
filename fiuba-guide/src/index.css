@@ -18,6 +18,15 @@ body {
     stroke: var(--unselected);
 }
 
+.selected-text {
+    color: var(--tertiary-color);
+    font-weight: 800;
+}
+
+.unselected-text {
+    color: var(--unselected);
+}
+
 div.canvas {
     background-color: #FCFCFC;
     height: 100vh;
@@ -65,4 +74,18 @@ path {
 
 [id^="WALL"] {
     fill: none;
+}
+
+.room-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    overflow-wrap: anywhere;
+    font-size: 2px;
+    padding: 2px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    overflow-wrap: anywhere;
 }
