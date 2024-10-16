@@ -1,3 +1,4 @@
+import Fuse from "fuse.js";
 import { FloorConfig, floorConfig } from "../assets/floorConfig";
 import { FloorId, floorIdStrToEnum } from "../types/FloorId";
 import { Floor } from "./Floor";
@@ -44,6 +45,10 @@ const items = Object.entries(floorConfig).reduce(
   []
 );
 
+const fuse = new Fuse(items, {
+  keys: ["name"],
+})
+
 const formatResult = (item: AutocompleteItem) => {
   const { name, display } = item;
 
@@ -81,9 +86,7 @@ export const RoomSearchBar = ({ onSelectRoom }: Props) => {
         getOptionLabel={(option) => option.id}
         groupBy={(option) => option.floor}
         renderOption={formatResult}
-        searcher={(query) => new Promise((res) => res(items.filter((room) =>
-          room.name.toLowerCase().includes(query.toLowerCase())
-        ).slice(0, 5)))}
+        searcher={(query) => new Promise((res) => res(fuse.search(query).map(result => result.item).slice(0, 5)))}
         renderGroup={(floorId) => <FloorDisplayName floorId={floorIdStrToEnum(floorId)} />}
       />
     </div>
