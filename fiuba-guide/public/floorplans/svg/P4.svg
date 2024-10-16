@@ -1,112 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg width="328.29324mm" height="240.52657mm" viewBox="0 0 328.29322 240.52657" version="1.1" id="svg1"
-  inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)" sodipodi:docname="P4.svg" xml:space="preserve"
-  inkscape:export-filename="P4-Traced.png" inkscape:export-xdpi="96" inkscape:export-ydpi="96"
-  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
-  xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview id="namedview1" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"
-    inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#505050"
-    inkscape:document-units="mm" inkscape:zoom="2" inkscape:cx="416" inkscape:cy="422" inkscape:window-width="1848"
-    inkscape:window-height="1016" inkscape:window-x="72" inkscape:window-y="27" inkscape:window-maximized="1"
-    inkscape:current-layer="P4" showgrid="false">
-    <inkscape:grid id="grid37" units="mm" originx="8.073547" originy="-51.376323" spacingx="0.99999998" spacingy="1"
-      empcolor="#0099e5" empopacity="0.30196078" color="#0099e5" opacity="0.14901961" empspacing="5" dotted="false"
-      gridanglex="30" gridanglez="30" visible="false" />
-  </sodipodi:namedview>
-  <defs id="defs1" />
-  <g inkscape:groupmode="layer" id="P4" inkscape:label="P4" style="display:inline;opacity:1"
-    transform="translate(60.854437,-15.174526)" sodipodi:insensitive="true">
-    <rect
-      style="display:inline;opacity:1;mix-blend-mode:normal;fill:none;stroke:#292929;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none"
-      id="BACKGROUND-4" width="327.99326" height="240.22656" x="-60.704437" y="15.324526" inkscape:label="BACKGROUND" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="430" width="8.3881197" height="21.879803" x="166.79602" y="107.0033" inkscape:label="430" />
-    <path id="UNK-402"
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      inkscape:label="UNK-402"
-      d="m 197.12396,72.935354 v 6.860563 h -16.94367 v 62.052023 47.98932 h 16.94522 v -4.53047 h 12.17496 v -9.37824 H 197.12551 V 141.84794 82.173033 h 12.87466 v -9.237679 z" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="432" width="21.400841" height="17.273121" x="145.39502" y="111.6102" inkscape:label="432" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="BATHROOM-4R" width="12.804145" height="17.273121" x="132.59087" y="111.6102" inkscape:label="BATHROOM-4R" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="STAIRS-4R" width="12.66687" height="12.666408" x="119.924" y="111.6102" inkscape:label="STAIRS-4R" />
-    <path id="UNK-400"
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      inkscape:label="UNK-400"
-      d="M 22.507224,51.526324 V 68.418833 H 5.5030944 v 4.070036 H -7.5922303 v 9.830925 H 5.5030944 v 2.951757 H 22.507224 V 85.79555 H 35.848529 V 111.61 h 46.205448 v 12.66641 H 119.92402 V 111.61 h 46.87207 V 85.79555 68.418833 h 13.39453 V 51.526324 Z" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="STAIRS-4L" width="12.211661" height="12.666408" x="69.842247" y="111.61024" inkscape:label="STAIRS-4L" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="BATHROOM-4L" width="12.815398" height="17.272852" x="57.026852" y="111.61024" inkscape:label="BATHROOM-4L" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="402_" width="21.178398" height="17.272852" x="35.848457" y="111.61024" inkscape:label="402?" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="431" width="30.345463" height="43.611305" x="5.503036" y="85.271797" inkscape:label="431" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-406" width="17.017626" height="46.932533" x="5.503036" y="128.8831" inkscape:label="UNK-406" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="417" width="13.875445" height="6.1146951" x="33.744709" y="136.37361" inkscape:label="417" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="421" width="22.364843" height="12.732556" x="35.760609" y="163.08308" inkscape:label="421" />
-    <path id="UNK-404"
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      inkscape:label="UNK-404"
-      d="m 47.62042,136.37334 v 6.11487 H 28.457766 v 20.59461 h 41.3675 v 6.2389 H 82.03124 v -6.2389 h 0.08475 v 5.2e-4 H 98.300014 V 152.03492 H 82.115989 v -9.54671 H 69.740517 v -6.11487 z" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="422" width="16.184315" height="10.814857" x="103.94426" y="152.03517" inkscape:label="422" />
-    <path id="LAB-BIOMEDIC"
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      inkscape:label="LAB-BIOMEDIC"
-      d="m 58.125205,163.08334 v 12.73204 H 47.701552 35.760679 v 14.0224 h 11.940873 v -5.2e-4 H 58.125205 69.740517 V 175.8159 163.08334 Z" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-405" width="13.257591" height="17.134869" x="22.503019" y="189.83752" inkscape:label="UNK-405" />
-    <path id="437"
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      inkscape:label="437"
-      d="m -7.9235474,175.81562 v 9.63921 H 5.5030229 v 4.38268 H 22.520589 V 175.81562 H 5.5030229 Z" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="414" width="26.495136" height="13.113198" x="141.13286" y="162.51578" inkscape:label="414" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="400" width="38.520428" height="20.430796" x="69.740448" y="169.40672" inkscape:label="400" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="438" width="24.330021" height="20.430803" x="108.26088" y="169.40672" inkscape:label="438" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-403" width="53.141457" height="27.641195" x="120.21487" y="135.20883" inkscape:label="UNK-403" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="416" width="22.084263" height="13.908552" x="132.59093" y="175.92897" inkscape:label="416" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="rect1-5-5-3-3-9-6-25-9-9-9-3-3-9-2-1-1-0-4-0-1-6-0-4-1-2-9-3-9-1-0-5-2-7-6-6-9-3-2-7-9-5-2-61-2-7-2-3"
-      width="12.952806" height="13.908552" x="154.67519" y="175.92897" inkscape:label="412" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="410" width="13.617373" height="16.868378" x="166.53957" y="189.83752" inkscape:label="410" />
-    <rect
-      style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-401" width="8.3881187" height="38.584202" x="166.79602" y="68.419083" inkscape:label="UNK-401" />
-    <path style="display:inline;mix-blend-mode:normal;fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
-      d="m 180.19055,68.419087 h 16.93338 v 4.516511" id="WALL-401" inkscape:label="WALL-401" />
-  </g>
-</svg>
+<svg:svg width="328.29324mm" height="240.52657mm" viewBox="0 0 328.29322 240.52657" version="1.1" id="svg1"
+    xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" label="svg1">
+    <defs id="defs1" label="defs1" />
+    <g id="P4" transform="translate(60.854437,-15.174526)" label="P4">
+        <rect id="BACKGROUND-4" width="327.99326" height="240.22656" x="-60.704437" y="15.324526"
+            label="BACKGROUND-4" />
+        <rect id="430" width="8.3881197" height="21.879803" x="166.79602" y="107.0033" label="430" />
+        <path id="UNK-402"
+            d="m 197.12396,72.935354 v 6.860563 h -16.94367 v 62.052023 47.98932 h 16.94522 v -4.53047 h 12.17496 v -9.37824 H 197.12551 V 141.84794 82.173033 h 12.87466 v -9.237679 z"
+            label="UNK-402" />
+        <rect id="432" width="21.400841" height="17.273121" x="145.39502" y="111.6102" label="432" />
+        <rect id="BATHROOM-4R" width="12.804145" height="17.273121" x="132.59087" y="111.6102" label="BATHROOM-4R" />
+        <rect id="STAIRS-4R" width="12.66687" height="12.666408" x="119.924" y="111.6102" label="STAIRS-4R" />
+        <path id="UNK-400"
+            d="M 22.507224,51.526324 V 68.418833 H 5.5030944 v 4.070036 H -7.5922303 v 9.830925 H 5.5030944 v 2.951757 H 22.507224 V 85.79555 H 35.848529 V 111.61 h 46.205448 v 12.66641 H 119.92402 V 111.61 h 46.87207 V 85.79555 68.418833 h 13.39453 V 51.526324 Z"
+            label="UNK-400" />
+        <rect id="STAIRS-4L" width="12.211661" height="12.666408" x="69.842247" y="111.61024" label="STAIRS-4L" />
+        <rect id="BATHROOM-4L" width="12.815398" height="17.272852" x="57.026852" y="111.61024" label="BATHROOM-4L" />
+        <rect id="402?" width="21.178398" height="17.272852" x="35.848457" y="111.61024" label="402?" />
+        <rect id="431" width="30.345463" height="43.611305" x="5.503036" y="85.271797" label="431" />
+        <rect id="UNK-406" width="17.017626" height="46.932533" x="5.503036" y="128.8831" label="UNK-406" />
+        <rect id="417" width="13.875445" height="6.1146951" x="33.744709" y="136.37361" label="417" />
+        <rect id="421" width="22.364843" height="12.732556" x="35.760609" y="163.08308" label="421" />
+        <path id="UNK-404"
+            d="m 47.62042,136.37334 v 6.11487 H 28.457766 v 20.59461 h 41.3675 v 6.2389 H 82.03124 v -6.2389 h 0.08475 v 5.2e-4 H 98.300014 V 152.03492 H 82.115989 v -9.54671 H 69.740517 v -6.11487 z"
+            label="UNK-404" />
+        <rect id="422" width="16.184315" height="10.814857" x="103.94426" y="152.03517" label="422" />
+        <path id="LAB-BIOMEDIC"
+            d="m 58.125205,163.08334 v 12.73204 H 47.701552 35.760679 v 14.0224 h 11.940873 v -5.2e-4 H 58.125205 69.740517 V 175.8159 163.08334 Z"
+            label="LAB-BIOMEDIC" />
+        <rect id="UNK-405" width="13.257591" height="17.134869" x="22.503019" y="189.83752" label="UNK-405" />
+        <path id="437" d="m -7.9235474,175.81562 v 9.63921 H 5.5030229 v 4.38268 H 22.520589 V 175.81562 H 5.5030229 Z"
+            label="437" />
+        <rect id="414" width="26.495136" height="13.113198" x="141.13286" y="162.51578" label="414" />
+        <rect id="400" width="38.520428" height="20.430796" x="69.740448" y="169.40672" label="400" />
+        <rect id="438" width="24.330021" height="20.430803" x="108.26088" y="169.40672" label="438" />
+        <rect id="UNK-403" width="53.141457" height="27.641195" x="120.21487" y="135.20883" label="UNK-403" />
+        <rect id="416" width="22.084263" height="13.908552" x="132.59093" y="175.92897" label="416" />
+        <rect id="rect1-5-5-3-3-9-6-25-9-9-9-3-3-9-2-1-1-0-4-0-1-6-0-4-1-2-9-3-9-1-0-5-2-7-6-6-9-3-2-7-9-5-2-61-2-7-2-3"
+            width="12.952806" height="13.908552" x="154.67519" y="175.92897"
+            label="rect1-5-5-3-3-9-6-25-9-9-9-3-3-9-2-1-1-0-4-0-1-6-0-4-1-2-9-3-9-1-0-5-2-7-6-6-9-3-2-7-9-5-2-61-2-7-2-3" />
+        <rect id="410" width="13.617373" height="16.868378" x="166.53957" y="189.83752" label="410" />
+        <rect id="UNK-401" width="8.3881187" height="38.584202" x="166.79602" y="68.419083" label="UNK-401" />
+        <path d="m 180.19055,68.419087 h 16.93338 v 4.516511" id="WALL-401" label="WALL-401" />
+    </g>
+    <style xmlns="">
+        * {
+            display: inline;
+            opacity: 1;
+            mix-blend-mode: normal;
+            fill: none;
+            stroke: #292929;
+            stroke-width: 0.3;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-miterlimit: 5;
+            stroke-dasharray: none
+        }
+    </style>
+</svg:svg>

@@ -8,7 +8,10 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "json": "npx tsx scripts/write_json.ts"
+    "json": "npx tsx scripts/write_json.ts",
+    "label": "npx tsx scripts/add_custom_label.ts",
+    "remove_styles": "npx tsx scripts/remove_styles.ts",
+    "svg": "npm run label && npm run remove_styles"
   },
   "dependencies": {
     "react": "^18.3.1",

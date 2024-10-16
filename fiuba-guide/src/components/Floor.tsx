@@ -8,29 +8,17 @@ type Props = {
 };
 
 const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: RoomSearchData | null) => {
-  // we search all nodes for one with inkscape:label equal to selectedRoom
+  // we search all nodes for one with label equal to selectedRoom
   // we can not use id, because it is changed by the library when injected
-  // we can not use querySelector because it breaks the image
-  const nodes = [...svg.getElementsByTagName("*")] as HTMLElement[];
 
-  for (const node of nodes) {
-    const label = node.getAttribute("inkscape:label");
-    if (label === selectedRoom?.room) {
-      node.style.removeProperty("fill");
-      node.classList.add("selected");
-    } else if (node.style?.fill) {
-      if (label?.startsWith("BACKGROUND")) {
-        node.style.fill = "#0000";
-        node.style.stroke = "#0000";
-      }
-      else if (label?.startsWith("WALL")) {
-        node.style.fill = "#0000";
-      } else {
+  (svg.querySelectorAll("rect,path") as NodeListOf<SVGElement>)
+    .forEach((node) => {
+      const label = node.getAttribute("label");
+      if (label === selectedRoom?.room) {
         node.style.removeProperty("fill");
-        node.classList.add("unselected");
+        node.classList.add("selected");
       }
-    }
-  }
+    });
 };
 
 export const Floor = ({ selectedRoom }: Props) => {
@@ -45,3 +33,4 @@ export const Floor = ({ selectedRoom }: Props) => {
     />
   );
 };
+
