@@ -1,8 +1,9 @@
-import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { FloorConfig, floorConfig } from "../assets/floorConfig";
 import { FloorId, floorIdStrToEnum } from "../types/FloorId";
 import { Floor } from "./Floor";
-import "./SearchBar.css"
+import { FloorDisplayName } from "./FloorDisplayName";
+import "./RoomSearchBar.css"
+import { SearchBar } from "./SearchBar/SearchBar";
 
 export type RoomSearchData = {
   floorId: FloorId;
@@ -44,14 +45,12 @@ const items = Object.entries(floorConfig).reduce(
 );
 
 const formatResult = (item: AutocompleteItem) => {
-  const { name, display, floor } = item;
+  const { name, display } = item;
 
   if (name === display) {
     return (
       <div className="result-cointainer">
-        <div>
-          {name} [Piso {floor}]
-        </div>
+        <div>{name}</div>
         <div className="floor-mini">
           <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
         </div>
@@ -61,7 +60,7 @@ const formatResult = (item: AutocompleteItem) => {
   return (
     <div className="result-cointainer">
       <div>
-        {item.name} ({item.display}) [Piso {floor}]
+        {item.name} ({item.display})
       </div>
       <div className="floor-mini">
         <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
@@ -70,28 +69,23 @@ const formatResult = (item: AutocompleteItem) => {
   );
 };
 
-export const SearchBar = ({ onSelectRoom }: Props) => {
+export const RoomSearchBar = ({ onSelectRoom }: Props) => {
   const onSelect = (item: AutocompleteItem) => {
     onSelectRoom({ floorId: item.floor, room: item.id });
   };
 
   return (
-    <ReactSearchAutocomplete
-      className="search-bar"
-      items={items}
-      onSelect={onSelect}
-      formatResult={formatResult}
-      showNoResultsText="Sin resultados"
-      placeholder="Aula"
-      styling={{
-        borderRadius: "5px",
-        border: "1px solid #5d737e",
-        color: "#3f4045",
-        backgroundColor: "#fcfcfc",
-        iconColor: "#5d737e",
-        placeholderColor: "#5d737e",
-        hoverBackgroundColor: "#d1d1d1"
-      }}
-    />
+    <div className="room-search-bar">
+      <SearchBar<AutocompleteItem>
+        onSelect={onSelect}
+        getOptionLabel={(option) => option.id}
+        groupBy={(option) => option.floor}
+        renderOption={formatResult}
+        searcher={(query) => new Promise((res) => res(items.filter((room) =>
+          room.name.toLowerCase().includes(query.toLowerCase())
+        ).slice(0, 5)))}
+        renderGroup={(floorId) => <FloorDisplayName floorId={floorIdStrToEnum(floorId)} />}
+      />
+    </div>
   );
 };
