@@ -36,6 +36,7 @@ div.canvas {
 }
 
 .floor-map svg {
+    height: 100%;
     width: 100%;
 }
 
