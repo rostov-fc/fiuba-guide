@@ -1,6 +1,6 @@
 import { ReactSVG } from "react-svg";
 import { FloorId } from "../types/FloorId";
-import { RoomSearchData } from "./SearchBar";
+import { RoomSearchData } from "./RoomSearchBar";
 import "./Floor.css"
 
 type Props = {

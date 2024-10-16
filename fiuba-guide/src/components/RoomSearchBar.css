@@ -1,0 +1,22 @@
+.floor-mini svg {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.result-cointainer {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.room-search-bar {
+  flex: 1;
+  max-width: 400px;
+  margin: 1rem;
+}
+
+.room-search-bar .floor {
+  margin: 0 0 0 2rem;
+}
