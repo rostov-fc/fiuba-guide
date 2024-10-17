@@ -5,6 +5,12 @@ body {
     --primary-color: #314c96;
     --tertiary-color: #c2c2c2;
     --unselected: #404040;
+    --border: 1px solid #eee;
+    --border-radius: 20px;
+    --hover: #f1f1f1;
+    --menu: #fff;
+    --padding-medium: 10px;
+    --padding-large: 16px;
 }
 
 .selected {
