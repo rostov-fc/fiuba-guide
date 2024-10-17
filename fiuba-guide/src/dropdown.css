@@ -1,0 +1,36 @@
+.dropdown {
+    background-color: var(--menu);
+    position: absolute;
+    width: 100%;
+
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
