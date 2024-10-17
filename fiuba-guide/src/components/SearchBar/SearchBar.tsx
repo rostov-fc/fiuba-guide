@@ -31,26 +31,23 @@ export const SearchBar = <T,>({
   const [results, setResults] = useState<T[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-  const [showResults, setShowResults] = useState<boolean>(false);
+  const [selected, setSelected] = useState<boolean>(false);
 
   const searchBarRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (query) {
+    if (query && selected) {
       setLoading(true);
       setError(null);
       searcher(query)
         .then((data) => {
           setResults(data);
           setLoading(false);
-          setShowResults(true);
         })
         .catch(() => {
           setError('Error fetching results');
           setLoading(false);
         });
-    } else {
-      setResults([]);
     }
   }, [query, searcher]);
 
@@ -58,7 +55,7 @@ export const SearchBar = <T,>({
 
   const handleClickOutside = (event: MouseEvent) => {
     if (searchBarRef.current && !searchBarRef.current.contains(event.target as Node)) {
-      setShowResults(false);
+      setSelected(false);
     }
   };
 
@@ -76,15 +73,15 @@ export const SearchBar = <T,>({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={placeholder ? placeholder : "Search..."}
-        onFocus={() => setShowResults(true)}
-        className={`input searchable ${((loading || error) || (showResults && query !== "")) ? "open" : ""}`}
+        onFocus={() => { console.log("focus", results.length); setSelected(true) }}
+        className={`input searchable ${((loading || error) || (selected && query !== "")) ? "open" : ""}`}
       />
 
       {loading && (renderLoading ? renderLoading : <div className='info'>Loading...</div>)}
       {error && <div>{error}</div>}
 
       {
-        showResults && !loading && !error && query !== "" && (
+        selected && !loading && !error && query !== "" && (
           <div className='dropdown-container'>
             <div className="dropdown">
               {results.length > 0 ? Object.entries(groupedResults).map(([group, options]) => (
@@ -94,7 +91,7 @@ export const SearchBar = <T,>({
                     {options.map((option) => (
                       <div key={getOptionLabel(option)} className="searchable clickable" onClick={() => {
                         onSelect(option);
-                        setShowResults(false);
+                        setSelected(false);
                         setQuery("");
                       }}>
                         {renderOption(option)}
