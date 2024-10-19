@@ -66,6 +66,8 @@ export const SearchBar = <T,>({
     };
   }, []);
 
+  const open = (loading || error) || (selected && query !== "");
+
   return (
     <div className="search-bar" ref={searchBarRef}>
       <input
@@ -74,7 +76,7 @@ export const SearchBar = <T,>({
         onChange={(e) => setQuery(e.target.value)}
         placeholder={placeholder ? placeholder : "Search..."}
         onFocus={() => setSelected(true)}
-        className={`input searchable ${((loading || error) || (selected && query !== "")) ? "open" : ""}`}
+        className={`input searchable ${open ? "open" : ""}`}
       />
 
       {loading && (renderLoading ? renderLoading : <div className='info'>Loading...</div>)}
