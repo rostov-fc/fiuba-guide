@@ -3,7 +3,7 @@ import { FloorId } from "../types/FloorId";
 import { RoomSearchData } from "./SearchBar";
 import { insertWrappedTextInSvg } from "../utils";
 import "./Floor.css"
-import { floorConfig } from "../assets/floorConfig";
+import { searchById } from "../assets/floorConfig";
 
 type Props = {
   selectedRoom: RoomSearchData | null;
@@ -33,7 +33,7 @@ const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: RoomSearchData | nu
         return;
       }
 
-      const displayName = floorConfig[selectedFloor].find((config) => config.id === label)?.displayName;
+      const displayName = searchById(selectedFloor, label)?.displayName;
 
       insertWrappedTextInSvg(node as SVGGraphicsElement,
         displayName || "", label === selectedRoom?.room ? ["selected-text"] : []);
