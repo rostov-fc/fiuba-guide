@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Floor } from "./components/Floor";
-import { RoomSearchData, SearchBar } from "./components/SearchBar";
+import { RoomSearchData, RoomSearchBar } from "./components/RoomSearchBar";
 
 function App() {
   const [selectedRoom, setSelectedRoom] = useState<RoomSearchData | null>(null);
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="canvas">
       <div className="main-bar">
-        <SearchBar onSelectRoom={setSelectedRoom} />
+        <RoomSearchBar onSelectRoom={setSelectedRoom} />
       </div>
       <div className="floor-map">
         <Floor selectedRoom={selectedRoom} />
