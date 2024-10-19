@@ -73,7 +73,7 @@ export const SearchBar = <T,>({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={placeholder ? placeholder : "Search..."}
-        onFocus={() => { console.log("focus", results.length); setSelected(true) }}
+        onFocus={() => setSelected(true)}
         className={`input searchable ${((loading || error) || (selected && query !== "")) ? "open" : ""}`}
       />
 
