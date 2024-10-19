@@ -11,8 +11,11 @@ export type RoomSearchData = {
   room: string;
 }
 
+const DEFAULT_MAX_RESULTS_TO_SHOW = 5;
+
 type Props = {
   onSelectRoom: (room: RoomSearchData | null) => void;
+  maxResultsToShow?: number;
 };
 
 type AutocompleteItem = {
@@ -74,7 +77,7 @@ const formatResult = (item: AutocompleteItem) => {
   );
 };
 
-export const RoomSearchBar = ({ onSelectRoom }: Props) => {
+export const RoomSearchBar = ({ onSelectRoom, maxResultsToShow: maxResultsToShow }: Props) => {
   const onSelect = (item: AutocompleteItem) => {
     onSelectRoom({ floorId: item.floor, room: item.id });
   };
@@ -86,7 +89,7 @@ export const RoomSearchBar = ({ onSelectRoom }: Props) => {
         getOptionLabel={(option) => option.id}
         groupBy={(option) => option.floor}
         renderOption={formatResult}
-        searcher={(query) => new Promise((res) => res(fuse.search(query).map(result => result.item).slice(0, 5)))}
+        searcher={(query) => new Promise((res) => res(fuse.search(query).map(result => result.item).slice(0, maxResultsToShow || DEFAULT_MAX_RESULTS_TO_SHOW)))}
         renderGroup={(floorId) => <FloorDisplayName floorId={floorIdStrToEnum(floorId)} />}
       />
     </div>
