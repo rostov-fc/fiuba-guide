@@ -17,6 +17,10 @@ type Props<T> = {
   renderGroup?: (group: string) => JSX.Element;
 };
 
+const DefaultNoResults = () => (
+  <div className="vertical-padding-large centered emphasis">No Results</div>
+);
+
 export const SearchBar = <T,>({
   placeholder,
   renderLoading,
@@ -64,6 +68,12 @@ export const SearchBar = <T,>({
     }
   };
 
+  const selectOption = (option: T) => {
+    onSelect(option);
+    setSelected(false);
+    setQuery("");
+  };
+
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -84,17 +94,26 @@ export const SearchBar = <T,>({
         className={`input searchable ${open ? "open" : ""}`}
       />
       {loading ? (
-        renderLoading || <div className="info">Loading...</div>
-      ) : error ? (
-        <div className="info">{error}</div>
-      ) : selected && query !== "" ? (
-        <div className="dropdown-container">
+        renderLoading || (
           <div className="dropdown">
-            {results.length > 0 ? (
-              Object.entries(groupedResults).map(([group, options]) => (
+            <div className="vertical-padding-large centered emphasis">
+              Loading...
+            </div>
+          </div>
+        )
+      ) : error ? (
+        <div className="dropdown">
+          <div className="vertical-padding-large centered emphasis">
+            {error}
+          </div>
+        </div>
+      ) : selected && query !== "" ? (
+        <div className="dropdown">
+          {results.length > 0
+            ? Object.entries(groupedResults).map(([group, options]) => (
                 <div key={group}>
                   <div className="bordered-vertical vertical-padding-medium centered emphasis">
-                    {renderGroup ? renderGroup(group) : group}
+                    {renderGroup?.(group) || group}
                   </div>
                   <div className="dropdown-options-container">
                     {options.map((option) => (
@@ -102,9 +121,7 @@ export const SearchBar = <T,>({
                         key={getOptionLabel(option)}
                         className="searchable clickable"
                         onClick={() => {
-                          onSelect(option);
-                          setSelected(false);
-                          setQuery("");
+                          selectOption(option);
                         }}
                       >
                         {renderOption(option)}
@@ -113,14 +130,7 @@ export const SearchBar = <T,>({
                   </div>
                 </div>
               ))
-            ) : renderNoResults ? (
-              renderNoResults
-            ) : (
-              <div className="vertical-padding-large centered emphasis">
-                No Results
-              </div>
-            )}
-          </div>
+            : renderNoResults || <DefaultNoResults />}
         </div>
       ) : null}
     </div>
