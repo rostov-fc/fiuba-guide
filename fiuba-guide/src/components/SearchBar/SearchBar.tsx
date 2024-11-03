@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from 'react';
-import '../../common.css';
-import '../../input.css';
-import '../../dropdown.css';
+import { useState, useEffect, useRef } from "react";
+import "../../common.css";
+import "../../input.css";
+import "../../dropdown.css";
 
 type Props<T> = {
   onSelect: (item: T) => void;
@@ -27,9 +27,9 @@ export const SearchBar = <T,>({
   renderOption,
   searcher,
   onSelect,
-  renderGroup
+  renderGroup,
 }: Props<T>) => {
-  const [query, setQuery] = useState<string>('');
+  const [query, setQuery] = useState<string>("");
   const [results, setResults] = useState<T[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
@@ -47,7 +47,7 @@ export const SearchBar = <T,>({
           setLoading(false);
         })
         .catch(() => {
-          setError('Error fetching results');
+          setError("Error fetching results");
           setLoading(false);
         });
     }
@@ -56,19 +56,22 @@ export const SearchBar = <T,>({
   const groupedResults = groupResults(results, groupBy);
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (searchBarRef.current && !searchBarRef.current.contains(event.target as Node)) {
+    if (
+      searchBarRef.current &&
+      !searchBarRef.current.contains(event.target as Node)
+    ) {
       setSelected(false);
     }
   };
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
-  const open = (loading || error) || (selected && query !== "");
+  const open = loading || error || (selected && query !== "");
 
   return (
     <div ref={searchBarRef} className={className}>
@@ -80,43 +83,56 @@ export const SearchBar = <T,>({
         onFocus={() => setSelected(true)}
         className={`input searchable ${open ? "open" : ""}`}
       />
-      {
-        loading? (renderLoading || <div className='info'>Loading...</div>):
-        error ? <div className='info'>{error}</div> :
-        (selected && query !== "") ?(
-          <div className='dropdown-container'>
-            <div className="dropdown">
-              {results.length > 0 ? Object.entries(groupedResults).map(([group, options]) => (
+      {loading ? (
+        renderLoading || <div className="info">Loading...</div>
+      ) : error ? (
+        <div className="info">{error}</div>
+      ) : selected && query !== "" ? (
+        <div className="dropdown-container">
+          <div className="dropdown">
+            {results.length > 0 ? (
+              Object.entries(groupedResults).map(([group, options]) => (
                 <div key={group}>
-                  <div className="bordered-vertical vertical-padding-medium centered emphasis">{renderGroup ? renderGroup(group) : group}</div>
-                  <div className='dropdown-options-container'>
+                  <div className="bordered-vertical vertical-padding-medium centered emphasis">
+                    {renderGroup ? renderGroup(group) : group}
+                  </div>
+                  <div className="dropdown-options-container">
                     {options.map((option) => (
-                      <div key={getOptionLabel(option)} className="searchable clickable" onClick={() => {
-                        onSelect(option);
-                        setSelected(false);
-                        setQuery("");
-                      }}>
+                      <div
+                        key={getOptionLabel(option)}
+                        className="searchable clickable"
+                        onClick={() => {
+                          onSelect(option);
+                          setSelected(false);
+                          setQuery("");
+                        }}
+                      >
                         {renderOption(option)}
                       </div>
                     ))}
                   </div>
                 </div>
-              )) : renderNoResults ? renderNoResults : <div className='vertical-padding-large centered emphasis'>No Results</div>}
-            </div>
+              ))
+            ) : renderNoResults ? (
+              renderNoResults
+            ) : (
+              <div className="vertical-padding-large centered emphasis">
+                No Results
+              </div>
+            )}
           </div>
-
-        ): null
-      }
-
-    </div >
+        </div>
+      ) : null}
+    </div>
   );
 };
 
-const groupResults = <T,>(results: T[], groupBy: (option: T) => string) => results.reduce<{ [key: string]: T[] }>((acc, option) => {
-  const group = groupBy(option);
-  if (!acc[group]) {
-    acc[group] = [];
-  }
-  acc[group].push(option);
-  return acc;
-}, {});
+const groupResults = <T,>(results: T[], groupBy: (option: T) => string) =>
+  results.reduce<{ [key: string]: T[] }>((acc, option) => {
+    const group = groupBy(option);
+    if (!acc[group]) {
+      acc[group] = [];
+    }
+    acc[group].push(option);
+    return acc;
+  }, {});
