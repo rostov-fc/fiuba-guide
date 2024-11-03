@@ -12,7 +12,7 @@
 .floor-display-selector {
   text-align: center;
 
-  background-image: url(../../../public/background_images/dropdown/down.svg);
+  background-image: url(/background_images/dropdown/down.svg);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 2rem;
@@ -20,5 +20,5 @@
 }
 
 .floor-display-selector.open {
-  background-image: url(../../../public/background_images/dropdown/up.svg);
+  background-image: url(/background_images/dropdown/up.svg);
 }

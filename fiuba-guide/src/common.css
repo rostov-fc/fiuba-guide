@@ -1,5 +1,5 @@
 .searchable {
-  background-image: url("../public/background_images/magnifying_glass.svg");
+  background-image: url("/background_images/magnifying_glass.svg");
   background-repeat: no-repeat;
   background-position: left center;
   background-position-x: 18px;
