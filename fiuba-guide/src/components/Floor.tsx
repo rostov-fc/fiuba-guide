@@ -2,7 +2,7 @@ import { ReactSVG } from "react-svg";
 import { FloorId } from "../types/FloorId";
 import { RoomSearchData } from "./RoomSearchBar";
 import { insertWrappedTextInSvg } from "../utils";
-import "./Floor.css"
+import "./Floor.css";
 import { searchById } from "../assets/floorConfig";
 
 type Props = {
@@ -15,29 +15,25 @@ const colorSelectedRoom = (svg: SVGSVGElement, selectedRoom: RoomSearchData | nu
 
   const selectedFloor = selectedRoom ? selectedRoom.floorId : FloorId.P1;
 
-  (svg.querySelectorAll("rect,path") as NodeListOf<SVGElement>)
-    .forEach((node) => {
-      const label = node.getAttribute("label");
-      if (!label) {
-        return;
-      }
+  (svg.querySelectorAll("rect,path") as NodeListOf<SVGElement>).forEach((node) => {
+    const label = node.getAttribute("label");
+    if (!label) {
+      return;
+    }
 
-      if (label === selectedRoom?.room) {
-        node.style.removeProperty("fill");
-        node.classList.add("selected");
-      }
+    if (label === selectedRoom?.room) {
+      node.style.removeProperty("fill");
+      node.classList.add("selected");
+    }
 
-      if (label?.startsWith("BACKGROUND") ||
-        label?.startsWith("WALL") ||
-        label?.startsWith("UNK")) {
-        return;
-      }
+    if (label?.startsWith("BACKGROUND") || label?.startsWith("WALL") || label?.startsWith("UNK")) {
+      return;
+    }
 
-      const displayName = searchById(selectedFloor, label)?.displayName;
+    const displayName = searchById(selectedFloor, label)?.displayName;
 
-      insertWrappedTextInSvg(node as SVGGraphicsElement,
-        displayName || "", label === selectedRoom?.room ? ["selected-text"] : []);
-    });
+    insertWrappedTextInSvg(node as SVGGraphicsElement, displayName || "", label === selectedRoom?.room ? ["selected-text"] : []);
+  });
 };
 
 export const Floor = ({ selectedRoom }: Props) => {
@@ -46,10 +42,12 @@ export const Floor = ({ selectedRoom }: Props) => {
   };
 
   return (
-    <ReactSVG className="floor" viewBox="0 0 20 10" preserveAspectRatio="xMidYMid meet"
+    <ReactSVG
+      className="floor"
+      viewBox="0 0 20 10"
+      preserveAspectRatio="xMidYMid meet"
       src={`/floorplans/svg/${selectedRoom ? selectedRoom.floorId : FloorId.P1}.svg`}
       afterInjection={afterInjection}
     />
   );
 };
-

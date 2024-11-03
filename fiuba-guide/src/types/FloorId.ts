@@ -16,6 +16,6 @@ export function floorIdStrToEnum(floorId: string): FloorId {
     case "P4":
       return FloorId.P4;
     default:
-      throw new Error(`Invalid Floor Id: ${floorId}`)
+      throw new Error(`Invalid Floor Id: ${floorId}`);
   }
-} 
+}

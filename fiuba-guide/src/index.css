@@ -1,98 +1,98 @@
 html,
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    --primary-color: #314c96;
-    --tertiary-color: #c2c2c2;
-    --unselected: #404040;
-    --border: 1px solid #eee;
-    --border-radius: 20px;
-    --hover: #f1f1f1;
-    --menu: #fff;
-    --padding-medium: 10px;
-    --padding-large: 16px;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  --primary-color: #314c96;
+  --tertiary-color: #c2c2c2;
+  --unselected: #404040;
+  --border: 1px solid #eee;
+  --border-radius: 20px;
+  --hover: #f1f1f1;
+  --menu: #fff;
+  --padding-medium: 10px;
+  --padding-large: 16px;
 }
 
 .selected {
-    background-color: var(--primary-color);
-    fill: var(--primary-color);
+  background-color: var(--primary-color);
+  fill: var(--primary-color);
 }
 
 .unselected {
-    background-color: var(--tertiary-color);
-    fill: var(--tertiary-color);
-    stroke: var(--unselected);
+  background-color: var(--tertiary-color);
+  fill: var(--tertiary-color);
+  stroke: var(--unselected);
 }
 
 .selected-text {
-    color: var(--tertiary-color);
-    font-weight: 800;
+  color: var(--tertiary-color);
+  font-weight: 800;
 }
 
 .unselected-text {
-    color: var(--unselected);
+  color: var(--unselected);
 }
 
 div.canvas {
-    background-color: #FCFCFC;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  background-color: #fcfcfc;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .floor-map svg {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .floor-map {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-bar {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: var(--primary-color);
-    width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--primary-color);
+  width: 100%;
 }
 
 /* SVG Specific */
 
 rect,
 path {
-    display: inline;
-    opacity: 1;
-    mix-blend-mode: normal;
-    fill: var(--tertiary-color);
-    stroke: #292929;
-    stroke-width: 0.3;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 5;
-    stroke-dasharray: none;
+  display: inline;
+  opacity: 1;
+  mix-blend-mode: normal;
+  fill: var(--tertiary-color);
+  stroke: #292929;
+  stroke-width: 0.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 5;
+  stroke-dasharray: none;
 }
 
 [id^="BACKGROUND"] {
-    stroke-width: 0;
-    fill: none;
+  stroke-width: 0;
+  fill: none;
 }
 
 [id^="WALL"] {
-    fill: none;
+  fill: none;
 }
 
 .room-text-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    overflow-wrap: anywhere;
-    font-size: 2px;
-    padding: 2px;
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
-    overflow-wrap: anywhere;
+  overflow-wrap: anywhere;
+  font-size: 2px;
+  padding: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  overflow-wrap: anywhere;
 }

@@ -3,13 +3,13 @@ import { FloorConfig, floorConfig } from "../assets/floorConfig";
 import { FloorId, floorIdStrToEnum } from "../types/FloorId";
 import { Floor } from "./Floor";
 import { FloorDisplayName } from "./FloorDisplayName";
-import "./RoomSearchBar.css"
+import "./RoomSearchBar.css";
 import { SearchBar } from "./SearchBar/SearchBar";
 
 export type RoomSearchData = {
   floorId: FloorId;
   room: string;
-}
+};
 
 const DEFAULT_MAX_RESULTS_TO_SHOW = 5;
 
@@ -25,10 +25,7 @@ type AutocompleteItem = {
   floor: FloorId;
 };
 
-const deNormalizeFloor = (
-  config: FloorConfig[],
-  floor: FloorId
-): AutocompleteItem[] =>
+const deNormalizeFloor = (config: FloorConfig[], floor: FloorId): AutocompleteItem[] =>
   config.reduce((acc: AutocompleteItem[], { id, displayName, searchTerms }) => {
     return [
       ...acc,
@@ -41,16 +38,13 @@ const deNormalizeFloor = (
     ];
   }, []);
 
-const items = Object.entries(floorConfig).reduce(
-  (acc: AutocompleteItem[], [id, config]) => {
-    return [...acc, ...deNormalizeFloor(config, floorIdStrToEnum(id))];
-  },
-  []
-);
+const items = Object.entries(floorConfig).reduce((acc: AutocompleteItem[], [id, config]) => {
+  return [...acc, ...deNormalizeFloor(config, floorIdStrToEnum(id))];
+}, []);
 
 const fuse = new Fuse(items, {
   keys: ["name"],
-})
+});
 
 const formatResult = (item: AutocompleteItem) => {
   const { name, display } = item;
@@ -83,14 +77,23 @@ export const RoomSearchBar = ({ onSelectRoom, maxResultsToShow: maxResultsToShow
   };
 
   return (
-      <SearchBar<AutocompleteItem>
-        className="room-search-bar"
-        onSelect={onSelect}
-        getOptionLabel={(option) => option.id}
-        groupBy={(option) => option.floor}
-        renderOption={formatResult}
-        searcher={(query) => new Promise((res) => res(fuse.search(query).map(result => result.item).slice(0, maxResultsToShow || DEFAULT_MAX_RESULTS_TO_SHOW)))}
-        renderGroup={(floorId) => <FloorDisplayName floorId={floorIdStrToEnum(floorId)} />}
-      />
+    <SearchBar<AutocompleteItem>
+      className="room-search-bar"
+      onSelect={onSelect}
+      getOptionLabel={(option) => option.id}
+      groupBy={(option) => option.floor}
+      renderOption={formatResult}
+      searcher={(query) =>
+        new Promise((res) =>
+          res(
+            fuse
+              .search(query)
+              .map((result) => result.item)
+              .slice(0, maxResultsToShow || DEFAULT_MAX_RESULTS_TO_SHOW),
+          ),
+        )
+      }
+      renderGroup={(floorId) => <FloorDisplayName floorId={floorIdStrToEnum(floorId)} />}
+    />
   );
 };
