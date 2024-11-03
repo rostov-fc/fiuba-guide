@@ -83,8 +83,8 @@ export const RoomSearchBar = ({ onSelectRoom, maxResultsToShow: maxResultsToShow
   };
 
   return (
-    <div className="room-search-bar">
       <SearchBar<AutocompleteItem>
+        className="room-search-bar"
         onSelect={onSelect}
         getOptionLabel={(option) => option.id}
         groupBy={(option) => option.floor}
@@ -92,6 +92,5 @@ export const RoomSearchBar = ({ onSelectRoom, maxResultsToShow: maxResultsToShow
         searcher={(query) => new Promise((res) => res(fuse.search(query).map(result => result.item).slice(0, maxResultsToShow || DEFAULT_MAX_RESULTS_TO_SHOW)))}
         renderGroup={(floorId) => <FloorDisplayName floorId={floorIdStrToEnum(floorId)} />}
       />
-    </div>
   );
 };

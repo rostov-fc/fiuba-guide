@@ -13,6 +13,7 @@ type Props<T> = {
   placeholder?: string;
   renderLoading?: JSX.Element;
   renderNoResults?: JSX.Element;
+  className?: string;
   renderGroup?: (group: string) => JSX.Element;
 };
 
@@ -20,6 +21,7 @@ export const SearchBar = <T,>({
   placeholder,
   renderLoading,
   renderNoResults,
+  className,
   getOptionLabel,
   groupBy,
   renderOption,
@@ -69,7 +71,7 @@ export const SearchBar = <T,>({
   const open = (loading || error) || (selected && query !== "");
 
   return (
-    <div className="search-bar" ref={searchBarRef}>
+    <div ref={searchBarRef} className={className}>
       <input
         type="text"
         value={query}
@@ -78,12 +80,10 @@ export const SearchBar = <T,>({
         onFocus={() => setSelected(true)}
         className={`input searchable ${open ? "open" : ""}`}
       />
-
-      {loading && (renderLoading ? renderLoading : <div className='info'>Loading...</div>)}
-      {error && <div>{error}</div>}
-
       {
-        selected && !loading && !error && query !== "" && (
+        loading? (renderLoading || <div className='info'>Loading...</div>):
+        error ? <div className='info'>{error}</div> :
+        (selected && query !== "") ?(
           <div className='dropdown-container'>
             <div className="dropdown">
               {results.length > 0 ? Object.entries(groupedResults).map(([group, options]) => (
@@ -105,8 +105,9 @@ export const SearchBar = <T,>({
             </div>
           </div>
 
-        )
+        ): null
       }
+
     </div >
   );
 };

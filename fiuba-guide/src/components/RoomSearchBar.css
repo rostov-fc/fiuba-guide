@@ -15,6 +15,7 @@
   flex: 1;
   max-width: 400px;
   margin: 1rem;
+  position: relative;
 }
 
 .room-search-bar .floor {
