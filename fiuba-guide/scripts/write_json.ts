@@ -27,7 +27,7 @@ function writeJsonForFloor(originPath: string, destPath: string, matcher: (label
   const dom = new JSDOM(svgData, { contentType: "image/svg+xml" });
 
   const elements = dom.window.document.getElementsByTagName("*");
-  let out: FloorData[] = [];
+  const out: FloorData[] = [];
   for (const element of elements) {
     const id = element.getAttribute("inkscape:label");
     if (!id) {

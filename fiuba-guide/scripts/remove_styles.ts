@@ -2,34 +2,6 @@ import fs from "node:fs";
 import { JSDOM } from "jsdom";
 import { backUpDir, backUpFiles, destPath, FloorId, originPath } from "./utils";
 
-/*
-rect,
-path {
-    display: inline;
-    opacity: 1;
-    mix-blend-mode: normal;
-    fill: var(--tertiary-color);
-    stroke: #292929;
-    stroke-width: 0.3;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 5;
-    stroke-dasharray: none;
-}
-*/
-const globalStyle = {
-  display: "inline",
-  opacity: "1",
-  mixBlendMode: "normal",
-  fill: "var(--tertiary-color)",
-  stroke: "#292929",
-  strokeWidth: "0.3",
-  strokeLinecap: "round",
-  strokeLinejoin: "round",
-  strokeMiterlimit: "5",
-  strokeDasharray: "none",
-};
-
 // Set a global style equal to the style of the element at the specified position
 function addGlobalStyle(dom: JSDOM, elementPos: number = 0) {
   const svg = dom.window.document.querySelector("svg");

@@ -10,7 +10,7 @@ export enum FloorId {
 export async function backUpFiles(originPath: string, destPath: string) {
   try {
     await fs.promises.stat(destPath);
-  } catch (e) {
+  } catch {
     await fs.promises.mkdir(destPath, { recursive: true });
   }
   (await fs.promises.readdir(originPath)).map(async (path) => {

@@ -29,6 +29,7 @@ export const SearchBar = <T,>({ placeholder, renderLoading, renderNoResults, cla
   const searchBarRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // TODO: Can this have race conditions ?
     if (query && selected) {
       setLoading(true);
       setError(null);
@@ -42,7 +43,7 @@ export const SearchBar = <T,>({ placeholder, renderLoading, renderNoResults, cla
           setLoading(false);
         });
     }
-  }, [query, searcher]);
+  }, [query, searcher, selected]);
 
   const groupedResults = groupResults(results, groupBy);
 
