@@ -29,7 +29,7 @@
 }
 
 .vertical-padding-small {
-    padding: var(--padding-small) 0 var(--padding-small) 0;
+  padding: var(--padding-small) 0 var(--padding-small) 0;
 }
 
 .vertical-padding-medium {

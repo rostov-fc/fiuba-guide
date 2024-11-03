@@ -13,10 +13,14 @@ function App() {
         <RoomSearchBar onSelectRoom={setSelectedRoom} />
       </div>
       <div className="floor-map">
-        <FloorSelector selectedFloor={selectedRoom?.floorId || FloorId.P1} onFloorChange={(floor) => { setSelectedRoom({ floorId: floor }) }} />
+        <FloorSelector
+          selectedFloor={selectedRoom?.floorId || FloorId.P1}
+          onFloorChange={(floor) => {
+            setSelectedRoom({ floorId: floor });
+          }}
+        />
         <Floor selectedRoom={selectedRoom} />
       </div>
-
     </div>
   );
 }
