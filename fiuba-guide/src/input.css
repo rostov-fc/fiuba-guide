@@ -1,20 +1,20 @@
 .input {
-    width: 100%;
-    box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
 
-    padding: 20px;
-    border: 0px;
-    border-radius: var(--border-radius);
-    font-size: 16px;
+  padding: 20px;
+  border: 0px;
+  border-radius: var(--border-radius);
+  font-size: 16px;
 
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
 .input:focus {
-    outline: none;
+  outline: none;
 }
 
 .input.open {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }

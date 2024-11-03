@@ -17,22 +17,9 @@ type Props<T> = {
   renderGroup?: (group: string) => JSX.Element;
 };
 
-const DefaultNoResults = () => (
-  <div className="vertical-padding-large centered emphasis">No Results</div>
-);
+const DefaultNoResults = () => <div className="vertical-padding-large centered emphasis">No Results</div>;
 
-export const SearchBar = <T,>({
-  placeholder,
-  renderLoading,
-  renderNoResults,
-  className,
-  getOptionLabel,
-  groupBy,
-  renderOption,
-  searcher,
-  onSelect,
-  renderGroup,
-}: Props<T>) => {
+export const SearchBar = <T,>({ placeholder, renderLoading, renderNoResults, className, getOptionLabel, groupBy, renderOption, searcher, onSelect, renderGroup }: Props<T>) => {
   const [query, setQuery] = useState<string>("");
   const [results, setResults] = useState<T[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
@@ -60,10 +47,7 @@ export const SearchBar = <T,>({
   const groupedResults = groupResults(results, groupBy);
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (
-      searchBarRef.current &&
-      !searchBarRef.current.contains(event.target as Node)
-    ) {
+    if (searchBarRef.current && !searchBarRef.current.contains(event.target as Node)) {
       setSelected(false);
     }
   };
@@ -86,9 +70,7 @@ export const SearchBar = <T,>({
   const displayResults = () =>
     Object.entries(groupedResults).map(([group, options]) => (
       <div key={group}>
-        <div className="bordered-vertical vertical-padding-medium centered emphasis">
-          {renderGroup?.(group) || group}
-        </div>
+        <div className="bordered-vertical vertical-padding-medium centered emphasis">{renderGroup?.(group) || group}</div>
         <div className="dropdown-options-container">
           {options.map((option) => (
             <div
@@ -118,23 +100,15 @@ export const SearchBar = <T,>({
       {loading ? (
         renderLoading || (
           <div className="dropdown">
-            <div className="vertical-padding-large centered emphasis">
-              Loading...
-            </div>
+            <div className="vertical-padding-large centered emphasis">Loading...</div>
           </div>
         )
       ) : error ? (
         <div className="dropdown">
-          <div className="vertical-padding-large centered emphasis">
-            {error}
-          </div>
+          <div className="vertical-padding-large centered emphasis">{error}</div>
         </div>
       ) : selected && query !== "" ? (
-        <div className="dropdown">
-          {results.length > 0
-            ? displayResults()
-            : renderNoResults || <DefaultNoResults />}
-        </div>
+        <div className="dropdown">{results.length > 0 ? displayResults() : renderNoResults || <DefaultNoResults />}</div>
       ) : null}
     </div>
   );
