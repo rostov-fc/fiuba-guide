@@ -1,0 +1,18 @@
+{
+  "name": "fiuba-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "cd fiuba-guide && npm run lint",
+    "format": "cd fiuba-guide && npm run format"
+  },
+  "workspaces": [
+    "fiuba-guide"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.6"
+  }
+}

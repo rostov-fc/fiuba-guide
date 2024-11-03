@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+cd fiuba-guide
+npm run format
+npm run lint
