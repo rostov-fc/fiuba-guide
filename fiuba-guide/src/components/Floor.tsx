@@ -1,9 +1,9 @@
 import { ReactSVG } from "react-svg";
 import { FloorId } from "../types/FloorId";
-import { RoomSearchData } from "./RoomSearchBar";
 import { insertWrappedTextInSvg } from "../utils";
 import "./Floor.css";
 import { searchById } from "../assets/floorConfig";
+import { RoomSearchData } from "../Floors";
 
 type Props = {
   selectedRoom: RoomSearchData | null;
@@ -41,13 +41,5 @@ export const Floor = ({ selectedRoom }: Props) => {
     colorSelectedRoom(svg, selectedRoom);
   };
 
-  return (
-    <ReactSVG
-      className="floor"
-      viewBox="0 0 20 10"
-      preserveAspectRatio="xMidYMid meet"
-      src={`/floorplans/svg/${selectedRoom ? selectedRoom.floorId : FloorId.P1}.svg`}
-      afterInjection={afterInjection}
-    />
-  );
+  return selectedRoom?.element;
 };

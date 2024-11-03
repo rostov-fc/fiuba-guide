@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Floor } from "./components/Floor";
-import { RoomSearchData, RoomSearchBar } from "./components/RoomSearchBar";
+import { RoomSearchBar } from "./components/RoomSearchBar";
+import { RoomSearchData } from "./Floors";
 
 function App() {
   const [selectedRoom, setSelectedRoom] = useState<RoomSearchData | null>(null);

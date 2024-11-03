@@ -5,11 +5,7 @@ import { Floor } from "./Floor";
 import { FloorDisplayName } from "./FloorDisplayName";
 import "./RoomSearchBar.css";
 import { SearchBar } from "./SearchBar/SearchBar";
-
-export type RoomSearchData = {
-  floorId: FloorId;
-  room: string;
-};
+import { floors, RoomSearchData } from "../Floors";
 
 const DEFAULT_MAX_RESULTS_TO_SHOW = 5;
 
@@ -54,7 +50,7 @@ const formatResult = (item: AutocompleteItem) => {
       <div className="result-cointainer">
         <div>{name}</div>
         <div className="floor-mini">
-          <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
+          <Floor selectedRoom={floors[item.floor]} />
         </div>
       </div>
     );
@@ -65,7 +61,7 @@ const formatResult = (item: AutocompleteItem) => {
         {item.name} ({item.display})
       </div>
       <div className="floor-mini">
-        <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
+        <Floor selectedRoom={floors[item.floor]} />
       </div>
     </div>
   );
@@ -73,7 +69,7 @@ const formatResult = (item: AutocompleteItem) => {
 
 export const RoomSearchBar = ({ onSelectRoom, maxResultsToShow: maxResultsToShow }: Props) => {
   const onSelect = (item: AutocompleteItem) => {
-    onSelectRoom({ floorId: item.floor, room: item.id });
+    onSelectRoom(floors[item.floor]);
   };
 
   return (
