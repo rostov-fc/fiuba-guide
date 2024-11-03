@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Floor } from "./components/Floor";
 import { RoomSearchData, RoomSearchBar } from "./components/RoomSearchBar";
 import { FloorSelector } from "./components/FloorSelector/FloorSelector";
+import { FloorId } from "./types/FloorId";
 
 function App() {
   const [selectedRoom, setSelectedRoom] = useState<RoomSearchData | null>(null);
@@ -12,7 +13,7 @@ function App() {
         <RoomSearchBar onSelectRoom={setSelectedRoom} />
       </div>
       <div className="floor-map">
-        <FloorSelector selectedRoom={selectedRoom} onFloorChange={(floor) => { setSelectedRoom({ floorId: floor }) }} />
+        <FloorSelector selectedFloor={selectedRoom?.floorId || FloorId.P1} onFloorChange={(floor) => { setSelectedRoom({ floorId: floor }) }} />
         <Floor selectedRoom={selectedRoom} />
       </div>
 
