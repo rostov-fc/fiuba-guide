@@ -8,8 +8,8 @@ import { SearchBar } from "./SearchBar/SearchBar";
 
 export type RoomSearchData = {
   floorId: FloorId;
-  room: string;
-};
+  room?: string;
+}
 
 const DEFAULT_MAX_RESULTS_TO_SHOW = 5;
 

@@ -1,0 +1,24 @@
+.floor-display {
+  position: relative;
+  background-color: #fff;
+  max-width: 150px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  border-radius: var(--border-radius);
+  padding: 0;
+}
+
+.floor-display-selector {
+  text-align: center;
+
+  background-image: url(https://www.svgrepo.com/show/509905/dropdown-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 2rem;
+  background-position-x: 95%;
+}
+
+.floor-display-selector.open {
+  background-image: url(https://www.svgrepo.com/show/533664/chevron-up.svg);
+}

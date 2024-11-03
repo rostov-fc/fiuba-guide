@@ -28,6 +28,10 @@
   color: #333;
 }
 
+.vertical-padding-small {
+    padding: var(--padding-small) 0 var(--padding-small) 0;
+}
+
 .vertical-padding-medium {
   padding: var(--padding-medium) 0 var(--padding-medium) 0;
 }
