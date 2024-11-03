@@ -1,6 +1,6 @@
 import { ReactSVG } from "react-svg";
 import { FloorId } from "../types/FloorId";
-import { RoomSearchData } from "./SearchBar";
+import { RoomSearchData } from "./RoomSearchBar";
 import { insertWrappedTextInSvg } from "../utils";
 import "./Floor.css"
 import { searchById } from "../assets/floorConfig";

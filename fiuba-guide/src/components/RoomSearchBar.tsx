@@ -1,16 +1,21 @@
-import { ReactSearchAutocomplete } from "react-search-autocomplete";
+import Fuse from "fuse.js";
 import { FloorConfig, floorConfig } from "../assets/floorConfig";
 import { FloorId, floorIdStrToEnum } from "../types/FloorId";
 import { Floor } from "./Floor";
-import "./SearchBar.css"
+import { FloorDisplayName } from "./FloorDisplayName";
+import "./RoomSearchBar.css"
+import { SearchBar } from "./SearchBar/SearchBar";
 
 export type RoomSearchData = {
   floorId: FloorId;
   room: string;
 }
 
+const DEFAULT_MAX_RESULTS_TO_SHOW = 5;
+
 type Props = {
   onSelectRoom: (room: RoomSearchData | null) => void;
+  maxResultsToShow?: number;
 };
 
 type AutocompleteItem = {
@@ -43,15 +48,17 @@ const items = Object.entries(floorConfig).reduce(
   []
 );
 
+const fuse = new Fuse(items, {
+  keys: ["name"],
+})
+
 const formatResult = (item: AutocompleteItem) => {
-  const { name, display, floor } = item;
+  const { name, display } = item;
 
   if (name === display) {
     return (
       <div className="result-cointainer">
-        <div>
-          {name} [Piso {floor}]
-        </div>
+        <div>{name}</div>
         <div className="floor-mini">
           <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
         </div>
@@ -61,7 +68,7 @@ const formatResult = (item: AutocompleteItem) => {
   return (
     <div className="result-cointainer">
       <div>
-        {item.name} ({item.display}) [Piso {floor}]
+        {item.name} ({item.display})
       </div>
       <div className="floor-mini">
         <Floor selectedRoom={{ floorId: item.floor, room: item.id }} />
@@ -70,28 +77,20 @@ const formatResult = (item: AutocompleteItem) => {
   );
 };
 
-export const SearchBar = ({ onSelectRoom }: Props) => {
+export const RoomSearchBar = ({ onSelectRoom, maxResultsToShow: maxResultsToShow }: Props) => {
   const onSelect = (item: AutocompleteItem) => {
     onSelectRoom({ floorId: item.floor, room: item.id });
   };
 
   return (
-    <ReactSearchAutocomplete
-      className="search-bar"
-      items={items}
-      onSelect={onSelect}
-      formatResult={formatResult}
-      showNoResultsText="Sin resultados"
-      placeholder="Aula"
-      styling={{
-        borderRadius: "5px",
-        border: "1px solid #5d737e",
-        color: "#3f4045",
-        backgroundColor: "#fcfcfc",
-        iconColor: "#5d737e",
-        placeholderColor: "#5d737e",
-        hoverBackgroundColor: "#d1d1d1"
-      }}
-    />
+      <SearchBar<AutocompleteItem>
+        className="room-search-bar"
+        onSelect={onSelect}
+        getOptionLabel={(option) => option.id}
+        groupBy={(option) => option.floor}
+        renderOption={formatResult}
+        searcher={(query) => new Promise((res) => res(fuse.search(query).map(result => result.item).slice(0, maxResultsToShow || DEFAULT_MAX_RESULTS_TO_SHOW)))}
+        renderGroup={(floorId) => <FloorDisplayName floorId={floorIdStrToEnum(floorId)} />}
+      />
   );
 };
