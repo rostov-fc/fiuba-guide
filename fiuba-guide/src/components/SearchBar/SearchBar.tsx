@@ -83,6 +83,28 @@ export const SearchBar = <T,>({
 
   const open = loading || error || (selected && query !== "");
 
+  const displayResults = () =>
+    Object.entries(groupedResults).map(([group, options]) => (
+      <div key={group}>
+        <div className="bordered-vertical vertical-padding-medium centered emphasis">
+          {renderGroup?.(group) || group}
+        </div>
+        <div className="dropdown-options-container">
+          {options.map((option) => (
+            <div
+              key={getOptionLabel(option)}
+              className="searchable clickable"
+              onClick={() => {
+                selectOption(option);
+              }}
+            >
+              {renderOption(option)}
+            </div>
+          ))}
+        </div>
+      </div>
+    ));
+
   return (
     <div ref={searchBarRef} className={className}>
       <input
@@ -110,26 +132,7 @@ export const SearchBar = <T,>({
       ) : selected && query !== "" ? (
         <div className="dropdown">
           {results.length > 0
-            ? Object.entries(groupedResults).map(([group, options]) => (
-                <div key={group}>
-                  <div className="bordered-vertical vertical-padding-medium centered emphasis">
-                    {renderGroup?.(group) || group}
-                  </div>
-                  <div className="dropdown-options-container">
-                    {options.map((option) => (
-                      <div
-                        key={getOptionLabel(option)}
-                        className="searchable clickable"
-                        onClick={() => {
-                          selectOption(option);
-                        }}
-                      >
-                        {renderOption(option)}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))
+            ? displayResults()
             : renderNoResults || <DefaultNoResults />}
         </div>
       ) : null}

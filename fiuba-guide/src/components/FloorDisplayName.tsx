@@ -4,7 +4,7 @@ type Props = {
     floorId: FloorId;
 }
 
-const floorDisplayNameMap = {
+const floorDisplayNameMap: Record<FloorId, JSX.Element> = {
     [FloorId.P1]: <div>1<sup>er</sup> Piso</div>,
     [FloorId.P2]: <div>2<sup>do</sup> Piso</div>,
     [FloorId.P3]: <div>3<sup>er</sup> Piso</div>,
