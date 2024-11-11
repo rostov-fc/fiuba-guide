@@ -294,8 +294,7 @@
       inkscape:label="SIST DE CONTROL" />
     <rect
       style="display:inline;mix-blend-mode:normal;fill:none;stroke:#292929;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none"
-      id="BACKGROUND-2-9" width="351.93948" height="242.74721" x="-14.414855" y="3.036232"
-      inkscape:label="BACKGROUND" />
+      id="BACKGROUND-S2" width="328.14325" height="240.37657" x="0" y="0" inkscape:label="BACKGROUND" />
     <path style="opacity:0.6;fill:#000000;stroke-width:0.3;stroke-dasharray:none;stroke:#292929;stroke-opacity:1"
       d="m 115.71784,36.005013 64.10339,-0.05825" id="WALL-S2-1" inkscape:label="WALL-S2-1" />
     <path style="opacity:0.6;fill:#000000;stroke-width:0.3;stroke-dasharray:none;stroke:#000000;stroke-opacity:1"
@@ -419,6 +418,10 @@
       d="m 59.173571,190.81651 -33.089404,-0.0124" id="WALL-S103" inkscape:label="WALL-S103" sodipodi:nodetypes="cc" />
   </g>
   <g inkscape:groupmode="layer" id="PB" inkscape:label="PB" style="display:inline;opacity:0.779;mix-blend-mode:normal">
+    <rect
+      style="display:inline;mix-blend-mode:normal;fill:none;stroke:#292929;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none"
+      id="BACKGROUND-0" width="327.99326" height="240.22656" x="0.15000001" y="0.15000001"
+      inkscape:label="BACKGROUND" />
     <rect
       style="display:inline;opacity:0.712;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       id="STAIRS-0L" width="12.212" height="12.666408" x="130.69669" y="96.435715" inkscape:label="STAIRS-0L" />
