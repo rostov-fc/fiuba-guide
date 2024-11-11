@@ -68,7 +68,7 @@
       id="GAB_DE_" width="11.658755" height="6.8535953" x="189.86971" y="129.17346" inkscape:label="GAB DE?" />
     <rect
       style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="LAB-3-3" width="22.523735" height="10.212547" x="167.24774" y="76.90889" inkscape:label="S45?" />
+      id="S45?" width="22.523735" height="10.212547" x="167.24774" y="76.90889" inkscape:label="S45?" />
     <rect
       style="display:inline;opacity:0.6;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       id="UNK-232" width="11.926529" height="36.777451" x="104.49397" y="50.290985" inkscape:label="UNK-232" />
@@ -191,7 +191,7 @@
       id="SALA_DE_PROF" width="11.960037" height="13.633497" x="145.3777" y="121.37214" inkscape:label="SALA DE PROF" />
     <rect
       style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="LAB-3-3-6-8-3-2-0" width="9.4718962" height="5.8254981" x="135.82664" y="106.84666"
+      id="TABLERO ELECTRICO" width="9.4718962" height="5.8254981" x="135.82664" y="106.84666"
       inkscape:label="TABLERO ELECTRICO" />
     <rect
       style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
@@ -501,8 +501,7 @@
       inkscape:label="SALA-REUNIONES-01" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300002;stroke-dasharray:none;stroke-opacity:1"
-      id="rect1-8-9-3-8-6-3-5-9-2-3-1-5-6-6-7" width="11.248408" height="10.058018" x="89.312134" y="137.85052"
-      inkscape:label="rect1" />
+      id="UNK-012" width="11.248408" height="10.058018" x="89.312134" y="137.85052" inkscape:label="UNK-012" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
       id="UNK-08" width="30.034336" height="20.693336" x="100.56055" y="127.02247" inkscape:label="UNK-08" />
@@ -1014,8 +1013,7 @@
       id="416" width="22.084263" height="13.908552" x="132.59093" y="175.92897" inkscape:label="416" />
     <rect
       style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="rect1-5-5-3-3-9-6-25-9-9-9-3-3-9-2-1-1-0-4-0-1-6-0-4-1-2-9-3-9-1-0-5-2-7-6-6-9-3-2-7-9-5-2-61-2-7-2-3"
-      width="12.952806" height="13.908552" x="154.67519" y="175.92897" inkscape:label="412" />
+      id="412" width="12.952806" height="13.908552" x="154.67519" y="175.92897" inkscape:label="412" />
     <rect
       style="display:inline;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       id="410" width="13.617373" height="16.868378" x="166.53957" y="189.83752" inkscape:label="410" />
@@ -1046,8 +1044,7 @@
       inkscape:label="FQ-MAT-CER-ELECT" />
     <rect
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="rect1-2-3-4-6-3" width="7.6415482" height="17.273092" x="123.05514" y="96.435715"
-      inkscape:label="BATHROOM-5R" />
+      id="BATHROOM-5R" width="7.6415482" height="17.273092" x="123.05514" y="96.435715" inkscape:label="BATHROOM-5R" />
     <rect
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       id="STAIRS-5L" width="12.2118" height="12.666644" x="130.69661" y="96.435471" inkscape:label="STAIRS-5L" />
@@ -1058,7 +1055,7 @@
     <rect
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
       id="QUIM-ORG" width="27.44434" height="34.53611" x="119.80561" y="46.66795" inkscape:label="QUIM-ORG" />
-    <path id="rect1-2-3-4-6-3-1-7-9-5-7-2-9"
+    <path id="UNK-503"
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="UNK-503"
       d="m 147.24993,46.667952 v 6.209441 h 14.88229 v 5.428609 h 14.88281 v -5.428609 -6.209441 h -14.88281 z" />
