@@ -52,7 +52,276 @@
       id="image1-9" x="-66.560905" y="33.37228" inkscape:label="p5"
       style="display:none;opacity:1;mix-blend-mode:normal;stroke-width:0.973496" sodipodi:insensitive="true" />
   </g>
-  <g inkscape:groupmode="layer" id="g33" inkscape:label="S1" transform="translate(70.681035,-16.153265)"
+  <g inkscape:groupmode="layer" id="S2" inkscape:label="S2" style="display:inline">
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_DE_MAQ_Y_MOTOR" width="14.093027" height="24.240219" x="213.31912" y="111.78685"
+      inkscape:label="LAB DE MAQ Y MOTOR" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S209" width="23.449425" height="17.386623" x="189.86971" y="111.78685" inkscape:label="UNK-S209" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB_LASER_" width="11.724715" height="6.8535953" x="201.59442" y="129.17346" inkscape:label="GAB LASER?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB_DE_" width="11.658755" height="6.8535953" x="189.86971" y="129.17346" inkscape:label="GAB DE?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB-3-3" width="22.523735" height="10.212547" x="167.24774" y="76.90889" inkscape:label="S45?" />
+    <rect
+      style="display:inline;opacity:0.6;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-232" width="11.926529" height="36.777451" x="104.49397" y="50.290985" inkscape:label="UNK-232" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_DE_MYM_" width="17.519499" height="9.0088444" x="76.47097" y="63.590233" inkscape:label="LAB DE MYM?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-230" width="24.046188" height="10.696781" x="91.671654" y="36.005013" inkscape:label="UNK-230" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="STAIRS-S2UL" width="15.856746" height="9.7100563" x="76.031609" y="50.290985" inkscape:label="STAIRS-S2UL" />
+    <path id="UNK-229"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="UNK-229"
+      d="m 93.990645,58.701326 v 13.89786 h -17.51986 v 12.559957 h 13.452408 v 1.909444 H 104.49388 V 72.871004 72.599186 58.701326 Z" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S215" width="4.9850874" height="29.066555" x="71.485886" y="72.103081" inkscape:label="UNK-S215" />
+    <path id="UNK-S201"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="UNK-S201"
+      d="m 47.480823,43.297616 v 6.343798 h 2.105298 v 21.734074 h 2.423624 v 30.137692 h 15.89102 V 43.984912 h -15.89102 v -0.687296 h -2.105298 z" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_FLUID_DINAMICA_2" width="16.443924" height="14.778703" x="182.76566" y="62.080261"
+      inkscape:label="LAB FLUID DINAMICA 2" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299998;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB-UNK228_" width="16.693449" height="6.5768261" x="166.0722" y="70.282135" inkscape:label="GAB-UNK228?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299998;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB-UNK227_" width="14.936738" height="6.3406963" x="143.86322" y="70.4002" inkscape:label="GAB-UNK227?" />
+    <path id="LAB_MAQ_TERMICAS"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="LAB MAQ TERMICAS"
+      d="M 134.98401,50.290987 V 65.06993 h 23.99957 v -8.357113 h 23.28591 v -6.42183 h -23.28591 -0.0238 z" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_METAL_" width="21.424252" height="8.7386446" x="199.24838" y="87.529701" inkscape:label="LAB METAL?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="AULA_S2" width="10.13117" height="12.092573" x="247.29094" y="80.850121" inkscape:label="AULA_S2" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-219" width="26.741819" height="12.092573" x="220.71144" y="80.850121" inkscape:label="UNK-219" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_DE_APP_C_" width="6.6066833" height="20.990601" x="257.42212" y="80.850121"
+      inkscape:label="LAB_DE_APP_C_" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S205" width="14.323833" height="35.062515" x="257.42212" y="45.787601" inkscape:label="UNK-S205" />
+    <path id="UNK-S206"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="UNK-S206"
+      d="m 264.02885,80.850362 v 20.990448 h -6.60684 v 29.98887 h 6.60684 7.71735 V 80.850362 Z" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="TALLER_MEC__Y_LAB_DE_MAQ_TERMICAS" width="36.710686" height="18.769857" x="220.71144" y="62.080261"
+      inkscape:label="TALLER MEC  Y LAB DE MAQ TERMICAS" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-220" width="51.092319" height="4.706491" x="199.2484" y="96.268356" inkscape:label="UNK-220" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="STAIRS-S2R" width="10.163047" height="10.283251" x="179.60843" y="87.068306" inkscape:label="STAIRS-S2R" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB_DE_COMPUTACION" width="12.360685" height="10.283251" x="167.24774" y="87.068306"
+      inkscape:label="GAB DE COMPUTACION" />
+    <path id="UNK-214"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="UNK-214"
+      d="m 189.79617,77.020622 v 13.090157 7.240902 h 4.41782 v -7.240902 h 4.99556 V 77.020622 Z" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="STAIRS-S2L" width="10.163047" height="10.283251" x="135.26781" y="87.068306" inkscape:label="STAIRS-S2L" />
+    <path id="LAB_FLUID_DINAMICA_1"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="LAB FLUID DINAMICA 1"
+      d="m 125.03856,70.291018 v 6.493853 0.121408 10.162155 h 32.97135 V 76.784871 h -23.10489 v -6.493853 z" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="TALLER_CARP" width="13.152151" height="16.010265" x="76.47097" y="85.15937" inkscape:label="TALLER CARP" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S213" width="35.433178" height="14.1012" x="89.305382" y="87.068436" inkscape:label="UNK-S213" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="VERSTURIO_" width="10.621096" height="10.283253" x="124.64671" y="87.068306" inkscape:label="VERSTURIO?"
+      inkscape:transform-center-x="3.2006946" inkscape:transform-center-y="0.80290823" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-231_" width="12.579062" height="10.283251" x="145.43085" y="87.068306" inkscape:label="UNK-231?"
+      inkscape:transform-center-x="3.7907329" inkscape:transform-center-y="0.80290808" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="S27_-_POSGRADO" width="9.4718962" height="22.333469" x="135.82664" y="112.67216"
+      inkscape:label="S27 - POSGRADO" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S212" width="28.436939" height="17.056137" x="107.38969" y="112.67216" inkscape:label="UNK-S212" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="S25_-_GABINETE_VI" width="16.627863" height="5.9322405" x="107.48627" y="129.7283"
+      inkscape:label="S25 - GABINETE VI" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      id="APUBA" width="11.752764" height="5.9322581" x="124.07388" y="129.72829" inkscape:label="APUBA" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      id="PA__OL_DE_MEDICION_" width="9.5378637" height="19.973555" x="67.900604" y="106.39606"
+      inkscape:label="PAÑOL DE MEDICION?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-217" width="9.5378637" height="9.2909107" x="67.900604" y="126.36962" inkscape:label="UNK-217" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="SALA_DE_PROF" width="11.960037" height="13.633497" x="145.3777" y="121.37214" inkscape:label="SALA DE PROF" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB-3-3-6-8-3-2-0" width="9.4718962" height="5.8254981" x="135.82664" y="106.84666"
+      inkscape:label="TABLERO ELECTRICO" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S211" width="11.812973" height="14.654924" x="167.69724" y="121.37213" inkscape:label="UNK-S211" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S210" width="10.359521" height="29.180401" x="179.51019" y="106.84666" inkscape:label="UNK-S210" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_DE_MAQ" width="14.374515" height="31.56732" x="233.10713" y="121.66607" inkscape:label="LAB DE MAQ" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_V" width="13.285805" height="22.4765" x="219.8213" y="141.08035" inkscape:label="LAB V" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="S2-TALLER_1_" width="9.8348694" height="19.070271" x="247.48164" y="121.66607"
+      inkscape:label="S2-TALLER 1?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-233_" width="24.209393" height="13.59135" x="233.10713" y="108.07472" inkscape:label="UNK-233?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="S2-TALLER_2_" width="14.323833" height="15.94258" x="257.42212" y="131.82967" inkscape:label="S2-TALLER 2?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="STAIRS-S2BR" width="9.9410706" height="7.0358982" x="247.48106" y="140.73634" inkscape:label="STAIRS-S2BR" />
+    <path id="UNK-S207"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="UNK-S207"
+      d="m 247.48102,147.77238 v 5.3914 h -14.37845 v 13.20798 h 23.93084 v -11.56364 h 12.57597 v -7.03574 z" />
+    <path id="TABLERO_ELECTRICO"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="TABLERO ELECTRICO"
+      d="M 52.009745 101.51318 L 52.009745 135.66045 L 52.009745 149.13043 L 66.311198 149.13043 L 66.311198 135.66045 L 67.900765 135.66045 L 67.900765 101.51318 L 52.009745 101.51318 z " />
+    <path id="LAB_DE_INSTRU_Y_MED"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="LAB DE INSTRU Y MED"
+      d="M 83.064181 106.455 L 83.064181 120.84172 L 90.852336 120.84172 L 90.852336 135.66045 L 107.38983 135.66045 L 107.38983 120.84172 L 107.38983 106.455 L 83.064181 106.455 z " />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-226" width="7.7378144" height="14.81865" x="83.064262" y="120.84189" inkscape:label="UNK-226" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="DEPOSITO_Y_ENTRADA_DE_CORRIENTE" width="14.301526" height="25.37137" x="52.009865" y="149.13046"
+      inkscape:label="DEPOSITO Y ENTRADA DE CORRIENTE" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB_E_" width="13.268672" height="11.618402" x="76.818687" y="140.64787" inkscape:label="GAB E?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S208" width="23.775974" height="11.790115" x="66.311386" y="152.26628" inkscape:label="UNK-S208" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB_DE_LAB_2" width="13.268672" height="11.618402" x="90.087364" y="140.64787"
+      inkscape:label="GAB DE LAB 2" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-222" width="10.089379" height="23.580616" x="124.47694" y="140.64787" inkscape:label="UNK-222" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB-S2-UNK225" width="17.087137" height="6.7741647" x="107.38983" y="157.45436"
+      inkscape:label="LAB-S2-UNK225" />
+    <path id="LAB_FDE_METOD_ELECT_1_"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="LAB FDE METOD ELECT 1?"
+      d="m 90.087368,152.26616 v 11.96206 5.2e-4 6.7107 h 22.969812 v -6.71122 h -5.66738 v -11.96206 z" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-224_" width="21.509209" height="9.3471918" x="113.05714" y="164.22847" inkscape:label="UNK-224?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="GAB_Y_LAB_" width="12.387444" height="16.80649" x="112.0895" y="140.64789" inkscape:label="GAB Y LAB?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-223" width="3.9217279" height="11.618402" x="103.46797" y="140.64787" inkscape:label="UNK-223" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="CALEFACCION" width="52.940723" height="32.83931" x="137.73311" y="140.73634" inkscape:label="CALEFACCION" />
+    <path id="SALA_DE_CALDERAS"
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="SALA DE CALDERAS"
+      d="m 194.9508,141.08033 v 10.79229 h -4.27699 v 21.70303 h 29.14752 l 13.43578,0.15 -0.0833,-10.27385 -13.35244,0.10503 v -11.68421 -10.79229 z"
+      sodipodi:nodetypes="ccccccccccc" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="LAB_DE_BIODISEL_" width="9.7910967" height="6.4219193" x="189.09444" y="50.290981"
+      inkscape:label="LAB DE BIODISEL?" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-221" width="6.9232059" height="6.4219193" x="182.17123" y="50.290981" inkscape:label="UNK-221" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S203" width="30.320715" height="14.344216" x="179.82123" y="35.946762" inkscape:label="UNK-S203" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-S204" width="21.501835" height="37.238735" x="199.20959" y="50.290981" inkscape:label="UNK-S204" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="SIST_DE_CONTROL" width="23.406904" height="13.955545" x="210.14194" y="36.28981"
+      inkscape:label="SIST DE CONTROL" />
+    <rect
+      style="display:inline;mix-blend-mode:normal;fill:none;stroke:#292929;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none"
+      id="BACKGROUND-2-9" width="351.93948" height="242.74721" x="-14.414855" y="3.036232"
+      inkscape:label="BACKGROUND" />
+    <path style="opacity:0.6;fill:#000000;stroke-width:0.3;stroke-dasharray:none;stroke:#292929;stroke-opacity:1"
+      d="m 115.71784,36.005013 64.10339,-0.05825" id="WALL-S2-1" inkscape:label="WALL-S2-1" />
+    <path style="opacity:0.6;fill:#000000;stroke-width:0.3;stroke-dasharray:none;stroke:#000000;stroke-opacity:1"
+      d="M 76.170276,50.335248 H 67.838481" id="WALL-S2-7" inkscape:label="WALL-S2-7" />
+    <path style="opacity:0.6;fill:#000000;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      d="m 91.888116,46.709426 v 3.703021" id="WALL-S2-9" inkscape:label="WALL-S2-9" />
+    <path style="opacity:0.6;fill:#000000;stroke:#292929;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      d="m 233.5056,50.076898 23.94046,-0.172233" id="WALL-S2-2" inkscape:label="WALL-S2-2" />
+    <path style="opacity:0.6;fill:#000000;stroke:#292929;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      d="m 85.169477,184.37599 161.038343,0.25835" id="WALL-S2-4" inkscape:label="WALL-S2-4" />
+    <path style="opacity:0.6;fill:#000000;stroke:#292929;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      d="m 256.97242,166.54982 0.0861,18.25675" id="WALL-S2-3" inkscape:label="WALL-S2-3" />
+    <path style="opacity:0.6;fill:#000000;stroke:#292929;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      d="m 245.77724,184.54822 11.2813,0.0861" id="WALL-S2-10" inkscape:label="WALL-S2-10" />
+    <path style="opacity:0.6;fill:#000000;stroke:#292929;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      d="M 85.129459,184.44716 85.007671,173.91254" id="WALL-S2-5" inkscape:label="WALL-S2-5" />
+    <path style="opacity:0.6;fill:none;stroke:#292929;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      d="M 85.007671,173.97343 H 66.252396" id="WALL-S2-6" inkscape:label="WALL-S2-6" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="STAIRS-S2DL" width="6.2248507" height="8.4825573" x="66.294685" y="140.64787" inkscape:label="STAIRS-S2DL" />
+    <rect
+      style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="STAIRS-S2UR" width="4.8752699" height="10.966588" x="190.67381" y="140.90604" inkscape:label="STAIRS-S2UR" />
+  </g>
+  <g inkscape:groupmode="layer" id="S1" inkscape:label="S1" transform="translate(70.681035,-16.153265)"
     style="display:none;opacity:1;mix-blend-mode:normal">
     <rect
       style="display:inline;opacity:1;mix-blend-mode:normal;fill:none;stroke:#292929;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none"
