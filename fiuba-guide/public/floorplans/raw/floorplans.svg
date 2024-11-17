@@ -52,7 +52,7 @@
       id="image1-9" x="-66.560905" y="33.37228" inkscape:label="p5"
       style="display:none;opacity:1;mix-blend-mode:normal;stroke-width:0.973496" sodipodi:insensitive="true" />
   </g>
-  <g inkscape:groupmode="layer" id="S2" inkscape:label="S2" style="display:inline">
+  <g inkscape:groupmode="layer" id="S2" inkscape:label="S2" style="display:none">
     <rect
       style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       id="LAB_DE_MAQ_Y_MOTOR" width="14.093027" height="24.240219" x="213.31912" y="111.78685"
@@ -225,11 +225,11 @@
     <path id="TABLERO_ELECTRICO"
       style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="TABLERO ELECTRICO"
-      d="M 52.009745 101.51318 L 52.009745 135.66045 L 52.009745 149.13043 L 66.311198 149.13043 L 66.311198 135.66045 L 67.900765 135.66045 L 67.900765 101.51318 L 52.009745 101.51318 z " />
+      d="m 52.009745,101.51318 v 34.14727 13.46998 h 14.301453 v -13.46998 h 1.589567 v -34.14727 z" />
     <path id="LAB_DE_INSTRU_Y_MED"
       style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="LAB DE INSTRU Y MED"
-      d="M 83.064181 106.455 L 83.064181 120.84172 L 90.852336 120.84172 L 90.852336 135.66045 L 107.38983 135.66045 L 107.38983 120.84172 L 107.38983 106.455 L 83.064181 106.455 z " />
+      d="m 83.064181,106.455 v 14.38672 h 7.788155 v 14.81873 H 107.38983 V 120.84172 106.455 Z" />
     <rect
       style="display:inline;opacity:0.603;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
       id="UNK-226" width="7.7378144" height="14.81865" x="83.064262" y="120.84189" inkscape:label="UNK-226" />
@@ -295,9 +295,9 @@
     <rect
       style="display:inline;mix-blend-mode:normal;fill:none;stroke:#292929;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:5;stroke-dasharray:none"
       id="BACKGROUND-S2" width="328.14325" height="240.37657" x="0" y="0" inkscape:label="BACKGROUND" />
-    <path style="opacity:0.6;fill:#000000;stroke-width:0.3;stroke-dasharray:none;stroke:#292929;stroke-opacity:1"
+    <path style="opacity:0.6;fill:#000000;stroke:#292929;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       d="m 115.71784,36.005013 64.10339,-0.05825" id="WALL-S2-1" inkscape:label="WALL-S2-1" />
-    <path style="opacity:0.6;fill:#000000;stroke-width:0.3;stroke-dasharray:none;stroke:#000000;stroke-opacity:1"
+    <path style="opacity:0.6;fill:#000000;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       d="M 76.170276,50.335248 H 67.838481" id="WALL-S2-7" inkscape:label="WALL-S2-7" />
     <path style="opacity:0.6;fill:#000000;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       d="m 91.888116,46.709426 v 3.703021" id="WALL-S2-9" inkscape:label="WALL-S2-9" />
@@ -336,7 +336,7 @@
       d="m 170.35852,139.82892 v 37.07887 h -17.0987 -39.19761 v -0.006 H 59.173571 v 13.91492 h 51.999929 2.88871 39.19761 3.45353 v 16.73644 h 13.61726 v -16.73644 h 0.0284 16.93799 v -13.90872 -37.07887 z" />
     <rect
       style="display:inline;opacity:1;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
-      id="STAIRS-S2BR" width="12.177" height="9.37784" x="187.29727" y="176.90768" inkscape:label="STAIRS-S2BR" />
+      id="rect1" width="12.177" height="9.37784" x="187.29727" y="176.90768" inkscape:label="STAIRS-S2BR" />
     <path id="UNK-S104"
       style="display:inline;opacity:1;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299998;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="UNK-S103"
@@ -403,7 +403,7 @@
       id="rect26" width="12.876" height="9.2371655" x="187.29727" y="73.914337" inkscape:label="STAIRS-S1TR" />
     <rect
       style="display:inline;opacity:1;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299997;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-S201" width="13.427" height="9.6392078" x="-17.750149" y="176.79436" inkscape:label="UNK-S101" />
+      id="rect2" width="13.427" height="9.6392078" x="-17.750149" y="176.79436" inkscape:label="UNK-S101" />
     <rect
       style="display:inline;opacity:1;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299997;stroke-dasharray:none;stroke-opacity:1"
       id="E1" width="13.258" height="25.003124" x="12.676417" y="182.97873" inkscape:label="E1" />
@@ -434,50 +434,60 @@
     <path id="UNK-010"
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="UNK-010"
-      d="M 203.83304 53.244295 L 203.83304 96.435457 L 206.24943 96.435457 L 206.24943 113.70882 L 227.65019 113.70882 L 227.65019 96.435457 L 227.6507 96.435457 L 227.6507 53.244295 L 203.83304 53.244295 z " />
+      d="M 203.83304 53.244295 L 203.83304 96.435457 L 206.24943 96.435457 L 206.24943 96.435974 L 227.65019 96.435974 L 227.65019 96.435457 L 227.6507 96.435457 L 227.6507 53.244295 L 203.83304 53.244295 z " />
+    <path id="UNK-003"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="UNK-003"
+      d="m 227.6507,53.244293 v 51.430567 h 0.71563 v 6.1e-4 h 6.33797 v -6.1e-4 h 1.5e-4 V 53.244293 Z" />
+    <path id="DEPTO-PATRIMONIO"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="DEPTO-PATRIMONIO"
+      d="M 247.00456 63.975423 L 247.00456 68.920341 L 241.03438 68.920341 L 241.03438 79.537264 L 257.96048 79.537264 L 257.96048 76.825285 L 257.96048 68.920341 L 257.96048 63.975423 L 247.00456 63.975423 z " />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="DEPTO-DEPORTES" width="16.926098" height="10.616859" x="241.03438" y="68.92041"
-      inkscape:label="DEPTO-DEPORTES" />
+      id="FOTOCOPIADORA" width="11.795985" height="17.272804" x="215.85445" y="96.435966"
+      inkscape:label="FOTOCOPIADORA" />
     <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="STAIRS-0TR" width="12.876059" height="9.2372065" x="257.97836" y="57.761066" inkscape:label="STAIRS-0TR" />
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-001" width="9.6049795" height="17.272804" x="206.24947" y="96.435822" inkscape:label="UNK-001" />
     <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="SEC-DECANATO" width="11.386899" height="13.417149" x="66.35746" y="137.85054" inkscape:label="SEC-DECANATO" />
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-STAIRS-0TR" width="12.876059" height="9.3227243" x="257.97836" y="57.675549"
+      inkscape:label="UNK-STAIRS-0TR" />
+    <rect
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f5dc0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      id="STAIRS-0TR" width="16.933001" height="4.516583" x="241.04523" y="53.158966" inkscape:label="STAIRS-0TR" />
+
     <path id="UNK-09"
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="UNK-09"
-      d="M 66.357707 151.26777 L 66.357707 160.64084 L 66.65743 160.64084 L 66.65743 174.66324 L 83.375273 174.66324 L 83.375273 191.79811 L 96.615291 191.79811 L 96.615291 160.64084 L 83.414547 160.64084 L 77.744609 160.64084 L 77.744609 151.26777 L 66.357707 151.26777 z " />
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="STAIRS-0BL" width="13.426573" height="9.6391993" x="52.930893" y="160.6411" inkscape:label="STAIRS-0BL" />
+      d="M 66.357707 113.7083 L 66.357707 151.26777 L 66.357707 158.82545 L 66.357707 160.64084 L 52.931136 160.64084 L 52.931136 170.28005 L 66.357707 170.28005 L 66.357707 174.66324 L 66.65743 174.66324 L 76.567936 174.66324 L 83.375273 174.66324 L 83.375273 191.79811 L 96.615291 191.79811 L 96.615291 174.66324 L 130.59513 174.66324 L 130.59513 160.64084 L 96.615291 160.64084 L 83.414547 160.64084 L 83.375273 160.64084 L 83.375273 147.71605 L 100.56079 147.71605 L 100.56079 127.02222 L 83.375273 127.02222 L 83.375273 113.7083 L 66.357707 113.7083 z " />
 
 
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="SEC-ADMIN" width="33.979843" height="14.021885" x="96.615044" y="160.6411" inkscape:label="SEC-ADMIN" />
+
+
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
       id="CONSEJERIA-ESTUDIANTIL" width="13.314739" height="15.227379" x="142.90834" y="96.435715"
       inkscape:label="CONSEJERIA-ESTUDIANTIL" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-011" width="13.314739" height="15.227379" x="167.4637" y="96.435669" inkscape:label="UNK-011" />
+      id="DEPTO-DEPORTES" width="13.315" height="15.227379" x="167.4637" y="96.435669"
+      inkscape:label="DEPTO-DEPORTES" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
-      id="BATHROOM-0L" width="10.601261" height="17.272591" x="120.01335" y="96.435982" inkscape:label="BATHROOM-0L" />
+      id="BATHROOM-0L" width="10.601" height="17.272591" x="120.01335" y="96.435982" inkscape:label="BATHROOM-0L">
+      <desc id="desc10">TAMBIEN ES EL BANIO DE DISCAPACITADOS</desc>
+    </rect>
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299998;stroke-dasharray:none;stroke-opacity:1"
-      id="SEC-POSGRADO" width="23.310215" height="17.272591" x="96.70314" y="96.435982" inkscape:label="SEC-POSGRADO" />
+      id="SEC-POSGRADO" width="23.309999" height="17.272591" x="96.70314" y="96.435982" inkscape:label="SEC-POSGRADO" />
 
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
-      id="TEL-0TR" width="13.394536" height="16.892513" x="227.65045" y="36.352043" inkscape:label="TEL-0TR" />
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
-      id="DIR-PERSONAL" width="23.817303" height="16.892513" x="203.83315" y="36.352043"
-      inkscape:label="DIR-PERSONAL" />
+    <path id="DIR-PERSONAL"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="DIR-PERSONAL"
+      d="M 203.83304 36.351786 L 203.83304 53.244812 L 227.6507 53.244812 L 234.70454 53.244812 L 234.70454 57.675549 L 238.76269 57.675549 L 241.04524 57.675549 L 241.04524 53.244812 L 241.04524 39.932446 L 241.04524 36.351786 L 227.6507 36.351786 L 203.83304 36.351786 z " />
+
     <path id="GYM"
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="GYM"
@@ -486,54 +496,47 @@
 
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
-      id="CEI" width="15.021303" height="16.900394" x="104.99189" y="36.352043" inkscape:label="CEI" />
+      id="CEI" width="15.021" height="16.900394" x="104.99189" y="36.352043" inkscape:label="CEI" />
 
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
-      id="SEC-CONSEJO" width="13.341301" height="13.900965" x="83.361839" y="53.252563" inkscape:label="SEC-CONSEJO" />
+    <path id="SEC-CONSEJO"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="SEC-CONSEJO"
+      d="M 83.361837 36.351786 L 83.361837 53.252563 L 83.361837 67.153524 L 96.703141 67.153524 L 96.703141 53.244812 L 104.99204 53.244812 L 104.99204 36.351786 L 83.361837 36.351786 z " />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300002;stroke-dasharray:none;stroke-opacity:1"
       id="SALON-DE-ACTOS" width="30.345678" height="46.555046" x="66.35746" y="67.153526"
       inkscape:label="SALON-DE-ACTOS" />
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300002;stroke-dasharray:none;stroke-opacity:1"
-      id="DECANATO" width="17.017633" height="24.141981" x="66.35746" y="113.70856" inkscape:label="DECANATO" />
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300002;stroke-dasharray:none;stroke-opacity:1"
-      id="SALA-REUNIONES-01" width="17.18545" height="10.828062" x="83.375092" y="127.02247"
-      inkscape:label="SALA-REUNIONES-01" />
-    <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300002;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-012" width="11.248408" height="10.058018" x="89.312134" y="137.85052" inkscape:label="UNK-012" />
+
+
+
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
       id="UNK-08" width="30.034336" height="20.693336" x="100.56055" y="127.02247" inkscape:label="UNK-08" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
-      id="SERVICIOS-GENERALES" width="12.375467" height="21.289032" x="130.59488" y="120.97548"
-      inkscape:label="SERVICIOS-GENERALES" />
+      id="INTENDENCIA" width="12.375" height="21.289032" x="130.59488" y="120.97548" inkscape:label="INTENDENCIA" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-07" width="9.6148634" height="5.4038668" x="143.05717" y="136.86064" inkscape:label="UNK-07" />
+      id="INFORMES" width="9.6148634" height="5.4038668" x="143.05717" y="136.86064" inkscape:label="INFORMES" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
-      id="UNK-06" width="9.6148634" height="5.4038668" x="171.36815" y="136.86064" inkscape:label="UNK-06" />
+      id="EUDEBA" width="9.6149998" height="5.4038668" x="171.36815" y="136.86064" inkscape:label="EUDEBA" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
       id="MESA-DE-ENTRADA" width="12.462283" height="22.230246" x="180.98302" y="120.03428"
       inkscape:label="MESA-DE-ENTRADA" />
     <path id="DIR-CONTABLE"
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300003;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="DIR-CONTABLE"
-      d="M 202.47085 153.01702 L 202.47085 160.75453 L 193.44556 160.75453 L 193.44556 174.66272 L 202.47085 174.66272 L 234.21103 174.66272 L 234.21103 174.66324 L 241.01165 174.66324 L 241.01165 160.75401 L 234.21103 160.75401 L 234.21103 153.01702 L 202.47085 153.01702 z " />
+      d="M 193.44556 153.01702 L 193.44556 160.75453 L 193.44556 170.90946 L 193.44556 174.66272 L 202.47085 174.66272 L 234.21103 174.66272 L 234.21103 174.66324 L 241.01165 174.66324 L 241.01165 160.75401 L 234.21103 160.75401 L 234.21103 153.01702 L 224.06281 153.01702 L 202.47085 153.01702 L 193.44556 153.01702 z " />
 
 
     <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300005;stroke-dasharray:none;stroke-opacity:1"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300005;stroke-dasharray:none;stroke-opacity:1"
       id="SEC-ACADEMICA" width="16.948576" height="13.07879" x="241.01166" y="147.67549"
       inkscape:label="SEC-ACADEMICA" />
     <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300005;stroke-dasharray:none;stroke-opacity:1"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300005;stroke-dasharray:none;stroke-opacity:1"
       id="DIR-ACADEMICA" width="16.948835" height="8.0377522" x="241.01166" y="139.63774"
       inkscape:label="DIR-ACADEMICA" />
     <path id="DEPTO-ALUMNOS"
@@ -541,40 +544,38 @@
       inkscape:label="DEPTO-ALUMNOS"
       d="m 241.03438,89.2545 v 6.962366 h -0.0227 v 31.149004 h -16.94884 v 12.27212 h 16.94884 16.94883 V 96.216866 h -8.5018 V 89.2545 Z" />
     <rect
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300005;stroke-dasharray:none;stroke-opacity:1"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300005;stroke-dasharray:none;stroke-opacity:1"
       id="COMUNICACIONES" width="16.948835" height="8.0377522" x="224.06281" y="139.63799"
       inkscape:label="COMUNICACIONES" />
     <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300004;stroke-dasharray:none;stroke-opacity:1"
       id="UNK-05" width="30.617498" height="20.3099" x="193.44531" y="127.36584" inkscape:label="UNK-05" />
     <path id="SERVICIOS-DE-COMPUTACION"
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300004;stroke-dasharray:none;stroke-opacity:1"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300004;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="SERVICIOS-DE-COMPUTACION"
       d="M 241.03438,79.537264 V 89.2545 h 8.4243 v 6.962366 h 8.5018 V 79.537264 Z" />
     <path id="UNK-04"
-      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300004;stroke-dasharray:none;stroke-opacity:1"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300004;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="UNK-04"
       d="M 245.82634 160.75401 L 245.82634 160.75453 L 241.01165 160.75453 L 241.01165 174.66324 L 257.99045 174.66324 L 257.99045 170.13225 L 270.15509 170.13225 L 270.15509 160.75401 L 245.82634 160.75401 z M 227.39387 174.66324 L 227.39387 191.53146 L 241.01113 191.53146 L 241.01113 174.66324 L 227.39387 174.66324 z " />
 
     <rect
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#c03f3f;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
+      id="UNK-STAIRS-0TL" width="13.095" height="9.830925" x="53.262135" y="57.31459" inkscape:label="UNK-STAIRS-0TL" />
+    <rect
       style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
-      id="STAIRS-0TL" width="13.095" height="9.830925" x="53.262135" y="57.31459" inkscape:label="STAIRS-0TL" />
-    <path id="UNK-01"
-      style="display:inline;opacity:0.682;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none;stroke-opacity:1"
-      inkscape:label="UNK-01"
-      d="M 83.361837,36.351786 V 53.252563 H 96.703141 V 96.435974 H 120.01335 V 53.244812 H 104.99204 V 36.351786 Z" />
-    <path
-      style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:5"
-      d="m 241.04498,53.244556 h 16.93338 v 4.516509" id="WALL-03" inkscape:label="WALL-03" />
-    <path
-      style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:5"
-      d="m 257.97836,66.998275 -0.0179,1.922134" id="WALL-02" inkscape:label="WALL-02" />
+      id="STAIRS-0TL" width="17.004707" height="4.062027" x="66.357132" y="53.252563" inkscape:label="STAIRS-0TL" />
+
+
+
     <path
       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:5"
       d="m 130.59488,174.66298 h 62.85048" id="WALL-01" inkscape:label="WALL-01" />
-    <path
-      style="display:inline;mix-blend-mode:normal;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.288317;stroke-dasharray:none;stroke-opacity:1"
-      d="M 83.212192,53.250467 H 66.357135 v 4.447039" id="WALL-S101-5" inkscape:label="WALL-S101" />
+
+    <path id="UNK-002"
+      style="display:inline;opacity:0.702;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+      inkscape:label="UNK-002"
+      d="m 96.703139,53.229894 v 43.191165 h 2.364912 v 5.1e-4 h 20.944789 v -5.1e-4 h 5e-4 V 53.229894 Z" />
   </g>
   <g inkscape:groupmode="layer" id="P1" inkscape:label="P1" style="display:none;opacity:0.379;mix-blend-mode:normal"
     transform="translate(60.854437,-15.174526)" sodipodi:insensitive="true">
@@ -1058,7 +1059,7 @@
     <rect
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
       id="QUIM-ORG" width="27.44434" height="34.53611" x="119.80561" y="46.66795" inkscape:label="QUIM-ORG" />
-    <path id="UNK-503"
+    <path id="path2"
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299999;stroke-dasharray:none;stroke-opacity:1"
       inkscape:label="UNK-503"
       d="m 147.24993,46.667952 v 6.209441 h 14.88229 v 5.428609 h 14.88281 v -5.428609 -6.209441 h -14.88281 z" />
@@ -1144,7 +1145,7 @@
       id="STAIRS-5R" width="12.66686" height="12.666512" x="180.77844" y="96.43557" inkscape:label="STAIRS-5R" />
     <rect
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299997;stroke-dasharray:none;stroke-opacity:1"
-      id="BATHROOM-5R" width="7.3365507" height="17.273117" x="193.51395" y="96.435677" inkscape:label="BATHROOM-5R" />
+      id="rect3" width="7.3365507" height="17.273117" x="193.51395" y="96.435677" inkscape:label="BATHROOM-5R" />
     <rect
       style="display:inline;opacity:0.768;mix-blend-mode:normal;fill:#3f60c0;fill-opacity:1;stroke:#000000;stroke-width:0.299997;stroke-dasharray:none;stroke-opacity:1"
       id="UNK-508" width="5.3251371" height="17.273117" x="222.32516" y="96.435677" inkscape:label="UNK-508" />
