@@ -9,6 +9,7 @@ on:
       - "fiuba-guide/public/**"
       - "fiuba-guide/index.html"
       - "fiuba-guide/package.json"
+      - "fiuba-guide/vite.config.ts"
   workflow_dispatch:
 
 env:
