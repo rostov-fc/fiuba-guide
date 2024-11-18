@@ -41,14 +41,12 @@ export const Floor = ({ selectedRoom }: Props) => {
     colorSelectedRoom(svg, selectedRoom);
   };
 
-  const urlPrefix = process.env.NODE_ENV === "development" ? "" : "/fiuba-guide";
-
   return (
     <ReactSVG
       className="floor"
       viewBox="0 0 20 10"
       preserveAspectRatio="xMidYMid meet"
-      src={`${urlPrefix}/floorplans/svg/${selectedRoom ? selectedRoom.floorId : FloorId.P1}.svg`}
+      src={`/fiuba-guide/floorplans/svg/${selectedRoom ? selectedRoom.floorId : FloorId.P1}.svg`}
       afterInjection={afterInjection}
     />
   );
