@@ -58,12 +58,15 @@ export const Floor = ({ selectedRoom, style }: Props) => {
 };
 
 export const FloorWithGestures = ({ selectedRoom }: Props) => {
-  const [translate, setTranslate] = useState([0, 0]);
-  const [scale, setScale] = useState(1);
+  const isMobile = window.innerWidth <= 768;
+  const baseScale = isMobile ? 2 : 1;
+  const baseOffset = isMobile ? [0, 100] : [0, 0];
+  const [translate, setTranslate] = useState(baseOffset);
+  const [scale, setScale] = useState(baseScale);
 
   const bind = useGesture({
-    onDrag: (state) => setTranslate(state.offset),
-    onPinch: (state) => setScale(state.offset[0]),
+    onDrag: (state) => setTranslate([baseOffset[0] + state.offset[0], baseOffset[1] + state.offset[1]]),
+    onPinch: (state) => setScale(baseScale * state.offset[0]),
   });
 
   const transform = `translate(${translate[0]}px, ${translate[1]}px) scale(${scale})`;
