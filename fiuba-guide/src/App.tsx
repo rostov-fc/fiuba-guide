@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Floor } from "./components/Floor";
+import { FloorWithGestures } from "./components/Floor";
 import { RoomSearchData, RoomSearchBar } from "./components/RoomSearchBar";
 import { FloorSelector } from "./components/FloorSelector/FloorSelector";
 import { FloorId } from "./types/FloorId";
@@ -19,7 +19,7 @@ function App() {
             setSelectedRoom({ floorId: floor });
           }}
         />
-        <Floor selectedRoom={selectedRoom} />
+        <FloorWithGestures selectedRoom={selectedRoom} />
       </div>
     </div>
   );

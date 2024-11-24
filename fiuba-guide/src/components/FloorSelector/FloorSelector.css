@@ -7,6 +7,7 @@
   margin-top: 2rem;
   border-radius: var(--border-radius);
   padding: 0;
+  z-index: 10;
 }
 
 .floor-display-selector {
